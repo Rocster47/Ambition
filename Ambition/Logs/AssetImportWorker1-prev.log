@@ -1,0 +1,2335 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32714 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/LocalUnityProjects/GitHub/Ambition/Ambition
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54846
+Successfully changed project path to: C:/LocalUnityProjects/GitHub/Ambition/Ambition
+C:/LocalUnityProjects/GitHub/Ambition/Ambition
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23124] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 1485725866 [EditorId] 1485725866 [Version] 1048832 [Id] WindowsEditor(7,RoccosGamingPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23124] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 1485725866 [EditorId] 1485725866 [Version] 1048832 [Id] WindowsEditor(7,RoccosGamingPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 26.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/LocalUnityProjects/GitHub/Ambition/Ambition/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010486 seconds.
+- Loaded All Assemblies, in  0.374 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.299 seconds
+Domain Reload Profiling: 671ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (300ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\LocalUnityProjects\GitHub\Ambition\Ambition\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\LocalUnityProjects\GitHub\Ambition\Ambition\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.141 seconds
+Refreshing native plugins compatible for Editor in 12.75 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.422 seconds
+Domain Reload Profiling: 2558ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (835ms)
+		LoadAssemblies (538ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (413ms)
+			TypeCache.Refresh (346ms)
+				TypeCache.ScanAssembly (308ms)
+			ScanForSourceGeneratedMonoScriptInfo (50ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1423ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1184ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (963ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 12.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6310 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 122 unused Assets / (0.6 MB). Loaded Objects now: 6760.
+Memory consumption went from 240.7 MB to 240.1 MB.
+Total: 6.018900 ms (FindLiveObjects: 0.649600 ms CreateObjectMapping: 0.644300 ms MarkObjects: 4.377500 ms  DeleteObjects: 0.346400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 100512.003382 seconds.
+  path: Assets/Scenes/Dock.unity
+  artifactKey: Guid(af432e1b7caa4fb49bbdc5fff2910648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dock.unity using Guid(af432e1b7caa4fb49bbdc5fff2910648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9981a038a1273838cee5b40f7afa34df') in 0.002574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 748.231608 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_78.asset
+  artifactKey: Guid(03f770881fec6ae458b28b77bec186f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_78.asset using Guid(03f770881fec6ae458b28b77bec186f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948a913e68ac6d86f91c284ba44ce344') in 0.007131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_82.asset
+  artifactKey: Guid(857c2b6353d6f564a9f60d6712731e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_82.asset using Guid(857c2b6353d6f564a9f60d6712731e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f4308f91d2684bea4ff3eac950def8') in 0.001929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_92.asset
+  artifactKey: Guid(ee60d1702e7ec3a4fb1b6fd24ee3a103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_92.asset using Guid(ee60d1702e7ec3a4fb1b6fd24ee3a103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81b3976cf60ea3f565e2fdf920488a0') in 0.003188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_88.asset
+  artifactKey: Guid(fc99ec95b9c281440abbb94fb3e10c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_88.asset using Guid(fc99ec95b9c281440abbb94fb3e10c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccf947ff3ef7015badd8d17c33a6210') in 0.002149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_84.asset
+  artifactKey: Guid(41ac3c548944f464682ba78dbdd1f8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_84.asset using Guid(41ac3c548944f464682ba78dbdd1f8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8559cd8f024f7966f271031df2b578df') in 0.001826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_90.asset
+  artifactKey: Guid(68056079763d87740a7ffe1c66d67bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_90.asset using Guid(68056079763d87740a7ffe1c66d67bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcacf62826f4f114f59b2b282e9f7c7') in 0.004979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_89.asset
+  artifactKey: Guid(6e3e3830c121afa449aeb8333aabcec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_89.asset using Guid(6e3e3830c121afa449aeb8333aabcec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4484ba75dd92760b913ada025326e3') in 0.002080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_83.asset
+  artifactKey: Guid(ebedc55bd78df934484572956120e033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_83.asset using Guid(ebedc55bd78df934484572956120e033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a976591832c53a4d6d23270d4856f3aa') in 0.002506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.373956 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_94.asset
+  artifactKey: Guid(59169ec7b0601084499c2fce23611253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_94.asset using Guid(59169ec7b0601084499c2fce23611253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be6b9c2f9756f8e023f24f07e091717') in 0.002233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_106.asset
+  artifactKey: Guid(a93677a29fdbb414e94e8686a8fe08f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_106.asset using Guid(a93677a29fdbb414e94e8686a8fe08f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2827b4c9841cfb82078082d1b9131898') in 0.001721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_99.asset
+  artifactKey: Guid(1faf0082823c945428862536e417a78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_99.asset using Guid(1faf0082823c945428862536e417a78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b198e33d3b8b7dad58aa7eeeca8ccfd') in 0.003099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_98.asset
+  artifactKey: Guid(356842386f58b084d8a66f351a453446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_98.asset using Guid(356842386f58b084d8a66f351a453446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d0cf2eb8a9d54ffcd075be839e33d6') in 0.002360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_120.asset
+  artifactKey: Guid(780bfc0541fe49548847f33c7577c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_120.asset using Guid(780bfc0541fe49548847f33c7577c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8cc7ea71bf6b40133c916cd4324cb9') in 0.001520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_101.asset
+  artifactKey: Guid(e92ff40ac3078264988794842c35fdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_101.asset using Guid(e92ff40ac3078264988794842c35fdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7643383c22239101fb79751f6d8d8120') in 0.002141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_113.asset
+  artifactKey: Guid(5cbe3faedad620843b0425f8e85c6ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_113.asset using Guid(5cbe3faedad620843b0425f8e85c6ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be41dc3244ea8c65af00f6a4bb5254f') in 0.001418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_112.asset
+  artifactKey: Guid(5923ea84f531d6a4d84c63672bc333e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_112.asset using Guid(5923ea84f531d6a4d84c63672bc333e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5217d3fbfd004192fd7590e8d452a340') in 0.001617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_116.asset
+  artifactKey: Guid(5cb19ec92837e5844bfd8eaf1e912856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_116.asset using Guid(5cb19ec92837e5844bfd8eaf1e912856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24553311b03b187da3f53147f4d647bf') in 0.002066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_121.asset
+  artifactKey: Guid(d4d966c1650297c4a94107bd21a66f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_121.asset using Guid(d4d966c1650297c4a94107bd21a66f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebcb001ac56afdef6a3d3d25419af6f') in 0.002213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_95.asset
+  artifactKey: Guid(e86badad5c8da4a44a68ddeafa770190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_95.asset using Guid(e86badad5c8da4a44a68ddeafa770190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ba2e1f4e379f7a94f0aac481a111d1') in 0.001861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_111.asset
+  artifactKey: Guid(eaed62f797f84284ead20c6ea4cca600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_111.asset using Guid(eaed62f797f84284ead20c6ea4cca600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc3103912a3911183db8772072e78c5') in 0.002131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_114.asset
+  artifactKey: Guid(34b42db269882c74b9f22b7f0bb7683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_114.asset using Guid(34b42db269882c74b9f22b7f0bb7683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8127e02cfdcd21c2b7582da34b3cb920') in 0.001850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_123.asset
+  artifactKey: Guid(bafce37463b50904b841f520258b16bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_123.asset using Guid(bafce37463b50904b841f520258b16bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba30c8f05dd22e5ada956cf18469d48') in 0.002034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_117.asset
+  artifactKey: Guid(5d82c37b77601a54d9501d6df12065ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_117.asset using Guid(5d82c37b77601a54d9501d6df12065ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3227d909ef0964ebcae6d0b09b8f3d2') in 0.002460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.077295 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_126.asset
+  artifactKey: Guid(dfd8823089dbdce40931449d81f6f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_126.asset using Guid(dfd8823089dbdce40931449d81f6f602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf377a44a78fbd7b518a4c7c6275167') in 0.001593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_136.asset
+  artifactKey: Guid(f93a3f914ccb2894fb2a094ba1fa3b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_136.asset using Guid(f93a3f914ccb2894fb2a094ba1fa3b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522da05c64c48e40454ce4f29993b37e') in 0.003118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_139.asset
+  artifactKey: Guid(546d036dc22506e41b7e70a8411840dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_139.asset using Guid(546d036dc22506e41b7e70a8411840dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25ec992e9e9c3365ec1d8cc2706bd25') in 0.002313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_129.asset
+  artifactKey: Guid(565bee87a2c95d74c9060974820f0139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_129.asset using Guid(565bee87a2c95d74c9060974820f0139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bf74d1ee4e9d6f180dd7308b03a7f4') in 0.002618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_131.asset
+  artifactKey: Guid(96698468e75276c4e90c676c92468b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_131.asset using Guid(96698468e75276c4e90c676c92468b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6ee871bd9ac89f21aafbb8e26ee9d0') in 0.001806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_134.asset
+  artifactKey: Guid(1d8aa8db532ca294dbc6ac6be2b6c0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_134.asset using Guid(1d8aa8db532ca294dbc6ac6be2b6c0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2854896f99c2bc74994fa30da9c708ee') in 0.001736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_137.asset
+  artifactKey: Guid(f8ba51a6541f6a441939bcb4ddc76dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_137.asset using Guid(f8ba51a6541f6a441939bcb4ddc76dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe242413743c15785705b2a19eca3c6') in 0.001780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_150.asset
+  artifactKey: Guid(84daf368179b456419876fc6f9262d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_150.asset using Guid(84daf368179b456419876fc6f9262d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31db5e7ce7b797a8691f6724950fbe9f') in 0.001629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_147.asset
+  artifactKey: Guid(abcfa834df0f45a4bb4f236e3c2eef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_147.asset using Guid(abcfa834df0f45a4bb4f236e3c2eef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c0ef7183fecc2a3da704737bd12345') in 0.002354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_152.asset
+  artifactKey: Guid(f8f619f792e3d574ca8bdff4edb1e75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_152.asset using Guid(f8f619f792e3d574ca8bdff4edb1e75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d977e041a398a7877c22abe15bbeeb5') in 0.002166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_142.asset
+  artifactKey: Guid(5f027453f18c4304a9e936f28121a7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_142.asset using Guid(5f027453f18c4304a9e936f28121a7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccb842de87ace0dc8ff12b2cd0603f7') in 0.001789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_153.asset
+  artifactKey: Guid(38ffc6bce9905cc43ac2becd88eeed0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_153.asset using Guid(38ffc6bce9905cc43ac2becd88eeed0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3243864a098781169b4edaabf0f9a944') in 0.002697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_158.asset
+  artifactKey: Guid(f3d056cc2185b0f46a0bb6d5cffff061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_158.asset using Guid(f3d056cc2185b0f46a0bb6d5cffff061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7eeaf2c6e120a83b1a6d5f433751508') in 0.002895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_170.asset
+  artifactKey: Guid(8a12b5c02b0e82b4f909f040d5fe45fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_170.asset using Guid(8a12b5c02b0e82b4f909f040d5fe45fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f7b0faeaa5732a4e3cfbfea4d71b3c') in 0.001577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_163.asset
+  artifactKey: Guid(b42c1efb362862e40b27359804be9721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_163.asset using Guid(b42c1efb362862e40b27359804be9721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a891c6e34345374ef3a01a410d6f2c') in 0.002167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_172.asset
+  artifactKey: Guid(f8d292147025b05418c74f2a32b574ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_172.asset using Guid(f8d292147025b05418c74f2a32b574ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4f74a8a234aab52ba3358ba37e5e9b') in 0.002197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_162.asset
+  artifactKey: Guid(b289fdec757c25e4d9b7d02605729a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_162.asset using Guid(b289fdec757c25e4d9b7d02605729a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693cb898a6e6dbb65369278ca67918f4') in 0.002409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_169.asset
+  artifactKey: Guid(f22cbdbbc2d7609439ef06f406e1d094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_169.asset using Guid(f22cbdbbc2d7609439ef06f406e1d094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf39caccf320fc0bf7f283328f4fb61') in 0.002139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_159.asset
+  artifactKey: Guid(9038a45665910fc49a8617226813a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_159.asset using Guid(9038a45665910fc49a8617226813a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b6be2791371ccde586af92b589b962') in 0.002272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_133.asset
+  artifactKey: Guid(ea50536c78b470b44bab53b10cdaf0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_133.asset using Guid(ea50536c78b470b44bab53b10cdaf0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6068ffdff6abab181d0d5695bddc40') in 0.002571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_161.asset
+  artifactKey: Guid(3bc34511f6ffa2746a4737fc0eec4a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_161.asset using Guid(3bc34511f6ffa2746a4737fc0eec4a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2007c06c494326398f0b82004498920') in 0.002205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_143.asset
+  artifactKey: Guid(eb057b4fd4960b04387487f4ee388154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_143.asset using Guid(eb057b4fd4960b04387487f4ee388154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbc3a50261282efb029166cd800cf00') in 0.002131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_145.asset
+  artifactKey: Guid(3aeb42f9564fd8c4382e052b8645c591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_145.asset using Guid(3aeb42f9564fd8c4382e052b8645c591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0135c4d7435822eb201e934fad8d4c55') in 0.002203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_166.asset
+  artifactKey: Guid(c33d027f6adcd3644a821e23b0de1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_166.asset using Guid(c33d027f6adcd3644a821e23b0de1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3527d1e9e269c36800c34c468bb4680') in 0.002387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.106261 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_174.asset
+  artifactKey: Guid(ec7772ad58a68fa4ab70defa5cc34711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_174.asset using Guid(ec7772ad58a68fa4ab70defa5cc34711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c650731185f997349adbdc129c031ab') in 0.002912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_186.asset
+  artifactKey: Guid(765c3a8f3ff45e7478a0948ec41266ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_186.asset using Guid(765c3a8f3ff45e7478a0948ec41266ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97d04b2862584631d2d9cf47ea201fa') in 0.001892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_178.asset
+  artifactKey: Guid(7ef638be514749148b38686091b0c1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_178.asset using Guid(7ef638be514749148b38686091b0c1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b812797f878d1fdd152aafb913fe9f7') in 0.002668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_184.asset
+  artifactKey: Guid(2666c3a208f1fcb48940d3eb97941071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_184.asset using Guid(2666c3a208f1fcb48940d3eb97941071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00dcabed77991cc0441e64b7f627902') in 0.002219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_181.asset
+  artifactKey: Guid(4d5745fd16002ca469557bc994ef7b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_181.asset using Guid(4d5745fd16002ca469557bc994ef7b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f608949afbdfcca4a0fdc4895541fcf5') in 0.001707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_182.asset
+  artifactKey: Guid(45a74002f2ac3f7418d9bb0e47d18d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_182.asset using Guid(45a74002f2ac3f7418d9bb0e47d18d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5503528a5963bc212e78f783183f66') in 0.001784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_175.asset
+  artifactKey: Guid(279b4b166b218e044acadcbd1b0ffba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_175.asset using Guid(279b4b166b218e044acadcbd1b0ffba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1f11efd5aa02d8846e5a10aa15d85c') in 0.001768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_185.asset
+  artifactKey: Guid(10929c57855fb224aa80675501352bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_185.asset using Guid(10929c57855fb224aa80675501352bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8200b0f999511ed7e7c3f8cfe63801a') in 0.001724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.702902 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_191.asset
+  artifactKey: Guid(f8751d922bc530549ac0228fb0a2fbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_191.asset using Guid(f8751d922bc530549ac0228fb0a2fbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952b7401cf891e483cede7153899db18') in 0.002069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_193.asset
+  artifactKey: Guid(ae4ecf129d44e0749bd6cddb91cebc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_193.asset using Guid(ae4ecf129d44e0749bd6cddb91cebc5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2435218627c1297a07a9d773142e1c8') in 0.001788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_201.asset
+  artifactKey: Guid(6d697853c693f5a41b35eb0d6cedf6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_201.asset using Guid(6d697853c693f5a41b35eb0d6cedf6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b273df64856f4974276448b2729f01e') in 0.001841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_207.asset
+  artifactKey: Guid(291a1bde0ed7177408307bafae2f7e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_207.asset using Guid(291a1bde0ed7177408307bafae2f7e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0b15d9aa8affaab97d23fc20b8d665') in 0.001563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_211.asset
+  artifactKey: Guid(532189f70b27769479fb5cb59de2f4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_211.asset using Guid(532189f70b27769479fb5cb59de2f4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e848792fedeaa76920dc41d542726f') in 0.001987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_217.asset
+  artifactKey: Guid(64f943339a34be9479f1abf5dd8cba78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_217.asset using Guid(64f943339a34be9479f1abf5dd8cba78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4c0e68023bf624488b2bbf1a4c0b5b') in 0.002162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_219.asset
+  artifactKey: Guid(4fb072c614fb1f144bd0f3f723a74b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_219.asset using Guid(4fb072c614fb1f144bd0f3f723a74b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c86636822acea9b552bb4d7d63f3946') in 0.001816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_197.asset
+  artifactKey: Guid(0a75cb4d8fb7d424aa4f5c7e2038786f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_197.asset using Guid(0a75cb4d8fb7d424aa4f5c7e2038786f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df032cc3d61eb2d55bb430e9f8c0f62') in 0.002024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002210 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_221.asset
+  artifactKey: Guid(45ec2e782f0471942812342ad40ce1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_221.asset using Guid(45ec2e782f0471942812342ad40ce1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3af619be8d9f16d37dd6d752357778') in 0.001934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_227.asset
+  artifactKey: Guid(4d9dcfa327c514b4baebc4816b04fda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_227.asset using Guid(4d9dcfa327c514b4baebc4816b04fda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf4f80c5beb70da8d6f75947d2b08bf') in 0.002034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_234.asset
+  artifactKey: Guid(40298c8a67179bf4c87e38f4ac065356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_234.asset using Guid(40298c8a67179bf4c87e38f4ac065356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d2b648a34dac04d4bd0334c8644004') in 0.001591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_249.asset
+  artifactKey: Guid(3f6296a1cef54184ea65ac925742e1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_249.asset using Guid(3f6296a1cef54184ea65ac925742e1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2431fc6d49644019c3b0eb642b9a879') in 0.002280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_239.asset
+  artifactKey: Guid(4df9a32d1595dab4da5a0f5c020407a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_239.asset using Guid(4df9a32d1595dab4da5a0f5c020407a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bef8215360b20fdcd9b89b602a7363') in 0.002292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_248.asset
+  artifactKey: Guid(a6457a969178b464d9bb2184cfb3b422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_248.asset using Guid(a6457a969178b464d9bb2184cfb3b422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678914fb1fa398994e8686ec403e7edc') in 0.001914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_237.asset
+  artifactKey: Guid(4e29c89cc14cde44d80a12fdf8dc0aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_237.asset using Guid(4e29c89cc14cde44d80a12fdf8dc0aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac9fe0e21fac442836da2f1d6c32611') in 0.001845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_225.asset
+  artifactKey: Guid(dfdba1e3feb86034abb5c3a4e1e9c59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_225.asset using Guid(dfdba1e3feb86034abb5c3a4e1e9c59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce4361b81c3b9d1071f0e66a3111562') in 0.001589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_230.asset
+  artifactKey: Guid(46db1f243ce317541b20c8dc207062bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_230.asset using Guid(46db1f243ce317541b20c8dc207062bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e02e4fbc1d3406e19eb3ef404cdc278') in 0.001757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.074221 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_255.asset
+  artifactKey: Guid(3732133e3fd6e144ba14496b77c0200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_255.asset using Guid(3732133e3fd6e144ba14496b77c0200c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19918f10079bf0865a368e944dffc9e0') in 0.002104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_267.asset
+  artifactKey: Guid(9c177ecb19b5d4f438ac4a4e6d016936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_267.asset using Guid(9c177ecb19b5d4f438ac4a4e6d016936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4adf5caa237b1802f4fafe7b0b751f') in 0.002408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_260.asset
+  artifactKey: Guid(f211c8de15923ec4498eefd4e2b42f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_260.asset using Guid(f211c8de15923ec4498eefd4e2b42f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eea5f396bcda1e4e1123c4eccce6bd0') in 0.002278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_263.asset
+  artifactKey: Guid(5522dbd98146660429f1d415a0ad865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_263.asset using Guid(5522dbd98146660429f1d415a0ad865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68379ca5b56e221e6c6a8daaa545a373') in 0.002039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_276.asset
+  artifactKey: Guid(6f255e7e0ce3211498c046a514359780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_276.asset using Guid(6f255e7e0ce3211498c046a514359780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf4be3a5429888b7964364b75ee6622') in 0.001591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_288.asset
+  artifactKey: Guid(f5527e9ecde1b7f4982b66823d403074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_288.asset using Guid(f5527e9ecde1b7f4982b66823d403074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439535f1b4083ee630940dcf4faa21bf') in 0.002672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_277.asset
+  artifactKey: Guid(8fcf530d43f2221458bf3260ae18cd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_277.asset using Guid(8fcf530d43f2221458bf3260ae18cd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc3d3140f22692b77ac9bb5a9ff2abe') in 0.002437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_286.asset
+  artifactKey: Guid(1621c14339d4b9e46bd5ab7092bd3a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_286.asset using Guid(1621c14339d4b9e46bd5ab7092bd3a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1310dedf0d58fc7e95c061770bfe77c3') in 0.001729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_295.asset
+  artifactKey: Guid(3281121050979444185a9cd6204fc2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_295.asset using Guid(3281121050979444185a9cd6204fc2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba69cd3b43f99916eaa46b8785e372d') in 0.001674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_282.asset
+  artifactKey: Guid(af5e215cf546308429213a0c51b43c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_282.asset using Guid(af5e215cf546308429213a0c51b43c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14b2b8613725cb58c68d9b80eccc2b0') in 0.002298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_299.asset
+  artifactKey: Guid(0badd68795ad12c459d93f1ecc0c0c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_299.asset using Guid(0badd68795ad12c459d93f1ecc0c0c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3376b59df2733e9a300c619767e5b0a9') in 0.002001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_294.asset
+  artifactKey: Guid(fc8059f86f9e91d47b086e0d6d763a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_294.asset using Guid(fc8059f86f9e91d47b086e0d6d763a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68018fb22367119767427022dd617703') in 0.001806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_306.asset
+  artifactKey: Guid(f0aad5af1b121c24589fb7fe0f4e75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_306.asset using Guid(f0aad5af1b121c24589fb7fe0f4e75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778b65f81234a0d9e80ef5cc9ecfc346') in 0.001865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_317.asset
+  artifactKey: Guid(2379c8eab2fc37c47ae1132057d1dfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_317.asset using Guid(2379c8eab2fc37c47ae1132057d1dfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f41f8321a61ce0cfcf0107937dcd38b') in 0.002095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_332.asset
+  artifactKey: Guid(b6f45f71e056e1c47a0c62ab2f0eb5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_332.asset using Guid(b6f45f71e056e1c47a0c62ab2f0eb5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaffe56260c038772b86c6056e185593') in 0.001751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_312.asset
+  artifactKey: Guid(f0d2486590be10d458c69a89ebeeb0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_312.asset using Guid(f0d2486590be10d458c69a89ebeeb0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec6d69cf355c80980affea3df75f178') in 0.001988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_321.asset
+  artifactKey: Guid(56a23aabf27d7eb44b7d927bad6d22d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_321.asset using Guid(56a23aabf27d7eb44b7d927bad6d22d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b106edf855d379d9acb1f6a2c7f881fe') in 0.002140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_323.asset
+  artifactKey: Guid(72a28f6bb4bcf9148a9b13a664f69e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_323.asset using Guid(72a28f6bb4bcf9148a9b13a664f69e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4235e4693c7eb2876f896486b5a731') in 0.001546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_329.asset
+  artifactKey: Guid(e0cc6e65c99e9954f8bcbd49c689d252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_329.asset using Guid(e0cc6e65c99e9954f8bcbd49c689d252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9b18df81e8c362d55ff52cf7f97136') in 0.001766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_285.asset
+  artifactKey: Guid(d6d51f0cbccd3eb45ad99ccf413610e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_285.asset using Guid(d6d51f0cbccd3eb45ad99ccf413610e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26f0f98c82c905980b86d74a5488ed2') in 0.001572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.036422 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_335.asset
+  artifactKey: Guid(fd52358d7b550bd408e876c3278a783a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_335.asset using Guid(fd52358d7b550bd408e876c3278a783a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943a554676e505e333672c75b46ef4d2') in 0.002149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_354.asset
+  artifactKey: Guid(7b759965a78e86f41849cfbd2c126fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_354.asset using Guid(7b759965a78e86f41849cfbd2c126fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1409cb85e5fccdc0188859d390a62540') in 0.002096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_358.asset
+  artifactKey: Guid(9267603663f10084a9e08e239a9e0e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_358.asset using Guid(9267603663f10084a9e08e239a9e0e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8348660ca1250802463b6bac2f4706') in 0.001985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_365.asset
+  artifactKey: Guid(8ecc398394d5fb742b634761acd71cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_365.asset using Guid(8ecc398394d5fb742b634761acd71cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10d244f8a1eadc24b5fffa8daca67b1') in 0.001579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_370.asset
+  artifactKey: Guid(3a22a2d668e756244966a4b8a1adb343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_370.asset using Guid(3a22a2d668e756244966a4b8a1adb343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c920f559d2fefc3f64b53a3dde7c74') in 0.001644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_372.asset
+  artifactKey: Guid(edc4279e28776b542b6edbf34be4fa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_372.asset using Guid(edc4279e28776b542b6edbf34be4fa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6241cf2e7054a1aecb6af7f17cac7e1e') in 0.001839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_369.asset
+  artifactKey: Guid(2df133aa131f78346a39037d85d56e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_369.asset using Guid(2df133aa131f78346a39037d85d56e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d41c8d6160500416d98d70cf817dad') in 0.001955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_393.asset
+  artifactKey: Guid(21be97c43c8b875438ce8128ec376126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_393.asset using Guid(21be97c43c8b875438ce8128ec376126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e5cd752098e16c087b005f7ab45e8d') in 0.002014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_388.asset
+  artifactKey: Guid(440b3ffeb3848e74a8f2794d26861ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_388.asset using Guid(440b3ffeb3848e74a8f2794d26861ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761d6940dee01c3c14b7e4477253cddb') in 0.001778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_338.asset
+  artifactKey: Guid(342ad1e13cf2c374890ddcf7e77dfbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_338.asset using Guid(342ad1e13cf2c374890ddcf7e77dfbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda513fa183497b7b71d88b44f503097') in 0.002063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_337.asset
+  artifactKey: Guid(b30ce16d71a9a01478aa1c226b1a9b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_337.asset using Guid(b30ce16d71a9a01478aa1c226b1a9b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2def9d2512c192003ab50332b4278ae') in 0.002122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_356.asset
+  artifactKey: Guid(0b4c5ad87feb5c542a1fab41cbdf034a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_356.asset using Guid(0b4c5ad87feb5c542a1fab41cbdf034a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c2daab591e6f09d99441bad6ea080c') in 0.001712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_363.asset
+  artifactKey: Guid(1b5c654636df87d4f8a4f1949a2c6ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_363.asset using Guid(1b5c654636df87d4f8a4f1949a2c6ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482b7159868e41ac78893b8ef81ce0a8') in 0.001872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_373.asset
+  artifactKey: Guid(dc843609adf68d0478a156133378dbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_373.asset using Guid(dc843609adf68d0478a156133378dbee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610afaf3b4108b391d9fb0ef6f6c3577') in 0.001657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_376.asset
+  artifactKey: Guid(843ffd360ee6df94298dcb953fe81888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_376.asset using Guid(843ffd360ee6df94298dcb953fe81888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b215ba79496579f359d45a6046f0d1f') in 0.002005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_348.asset
+  artifactKey: Guid(c973f372285d0304f9b89322098fe195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_348.asset using Guid(c973f372285d0304f9b89322098fe195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f7e3a0ca559016af19314e645d2fb8') in 0.001338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033269 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_399.asset
+  artifactKey: Guid(f82109e7b9fd914468188a4f7b9a1fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_399.asset using Guid(f82109e7b9fd914468188a4f7b9a1fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd89f1b1a47d6f21e25b7973be7a1be4') in 0.002069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_406.asset
+  artifactKey: Guid(352f9abfd7d8ed64fa26e0e636c10637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_406.asset using Guid(352f9abfd7d8ed64fa26e0e636c10637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269d21f3d74705b354a9bdf2c0367394') in 0.002340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_402.asset
+  artifactKey: Guid(9ce7570021f4e004eb4c4f66e9cc4387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_402.asset using Guid(9ce7570021f4e004eb4c4f66e9cc4387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54fcd36d10567382430d67b10c51863') in 0.001967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_404.asset
+  artifactKey: Guid(434d2eca9e1333d41bba5ecd89024a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_404.asset using Guid(434d2eca9e1333d41bba5ecd89024a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af003a36df298d5353a29be1f1bd314') in 0.001909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015133 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_415.asset
+  artifactKey: Guid(660b2c39aa053e94e9b94f4d482c3355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_415.asset using Guid(660b2c39aa053e94e9b94f4d482c3355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9b8d8bf184611c8d629ead00875133') in 0.002115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_420.asset
+  artifactKey: Guid(0fde83d0d3490b14e98b66bb96fd62d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_420.asset using Guid(0fde83d0d3490b14e98b66bb96fd62d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19e83ea8062a3303b9738458e1e8530') in 0.003812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_451.asset
+  artifactKey: Guid(e1bef435f8938574db0cdcf201726213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_451.asset using Guid(e1bef435f8938574db0cdcf201726213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd6f5db4167a10156ab35170cd63c93') in 0.001829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_426.asset
+  artifactKey: Guid(ce25ceb2634764f4d9fe14150a33fe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_426.asset using Guid(ce25ceb2634764f4d9fe14150a33fe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00e75216f3c112b9930db01f08e4884') in 0.002138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_424.asset
+  artifactKey: Guid(5762776974a25644fb4786187f144e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_424.asset using Guid(5762776974a25644fb4786187f144e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0290ddb5c362b3428155561542b2a6c3') in 0.001538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_457.asset
+  artifactKey: Guid(62e8670bc0adae8469af4bb4bb302570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_457.asset using Guid(62e8670bc0adae8469af4bb4bb302570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd905eca4e916e418cafd6d02db39155a') in 0.001866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_439.asset
+  artifactKey: Guid(69e86ad03667fbb43a707e1d1d26825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_439.asset using Guid(69e86ad03667fbb43a707e1d1d26825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b513bdc9a73bfcd46e64ecbf502a9842') in 0.001486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_443.asset
+  artifactKey: Guid(83468e0664a8ee949ab0d3809c14dbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_443.asset using Guid(83468e0664a8ee949ab0d3809c14dbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dea61c4e0d7a774480217ff0f964ac8') in 0.001741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_460.asset
+  artifactKey: Guid(d381e03ffc1330641a9303d63d4c36be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_460.asset using Guid(d381e03ffc1330641a9303d63d4c36be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7365c007f48155f846c5b5c27f395b8') in 0.001677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_427.asset
+  artifactKey: Guid(89b02fb19a10afc4bb03affc16a7cd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_427.asset using Guid(89b02fb19a10afc4bb03affc16a7cd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8d29e3c35923758ea8918973dddbcb') in 0.001597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_418.asset
+  artifactKey: Guid(05f11091c3b0f164ca367260211927e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_418.asset using Guid(05f11091c3b0f164ca367260211927e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d36146666e764c2960a62044af651a2') in 0.001679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_430.asset
+  artifactKey: Guid(d23f7a31540a78e458eeae6dacdbcee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_430.asset using Guid(d23f7a31540a78e458eeae6dacdbcee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9e1cc515264eec64dd14cb6194353f') in 0.001527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015418 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_463.asset
+  artifactKey: Guid(325a02fcb4a5337458f6a0d4eae8072f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_463.asset using Guid(325a02fcb4a5337458f6a0d4eae8072f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6701f79ae38e7466ec0eee979ba7fa0') in 0.001865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_470.asset
+  artifactKey: Guid(1631da62e9d1d824db381b296a34ab85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_470.asset using Guid(1631da62e9d1d824db381b296a34ab85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8c8aebfe44efcff566fb79c63d4ff3') in 0.001748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_475.asset
+  artifactKey: Guid(09471715647ca5343b99c248d187e0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_475.asset using Guid(09471715647ca5343b99c248d187e0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4804ff11e600e98cd78c2ade63889b04') in 0.002040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_469.asset
+  artifactKey: Guid(afb31342b0486df4b812086a0018b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_469.asset using Guid(afb31342b0486df4b812086a0018b511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9f8622c2323d22d0ce49afad272389') in 0.001614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.052421 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_479.asset
+  artifactKey: Guid(233b731c79f0a5349a0bee637f13fdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_479.asset using Guid(233b731c79f0a5349a0bee637f13fdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bf5c3c45dac20bc46904734fc795aa') in 0.002642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_497.asset
+  artifactKey: Guid(bf863a4c8d7ef3c40bc2c58271d6cbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_497.asset using Guid(bf863a4c8d7ef3c40bc2c58271d6cbc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e51486804c7c9befde6a2f0578d68c3') in 0.002148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_484.asset
+  artifactKey: Guid(e24c8ff369980274e88ac7926b66e3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_484.asset using Guid(e24c8ff369980274e88ac7926b66e3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6f89eab623945f846d7adccc89f5d2') in 0.001465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_490.asset
+  artifactKey: Guid(820a7c9285e13e542960c6c1d55d9e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_490.asset using Guid(820a7c9285e13e542960c6c1d55d9e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fe8bf742478cbddf28438b96594c26') in 0.001634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_488.asset
+  artifactKey: Guid(7ea02f23599d42b4cb2c32ae3d40774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_488.asset using Guid(7ea02f23599d42b4cb2c32ae3d40774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a86279222fa052216540b2f757a3a62') in 0.002189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_503.asset
+  artifactKey: Guid(db9365c05f6df1d439bf71c5c7728aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_503.asset using Guid(db9365c05f6df1d439bf71c5c7728aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6523da96a4908c237a52f50821082e8a') in 0.002134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_500.asset
+  artifactKey: Guid(2506e1f6010f2fe4b81683a2ad21daa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_500.asset using Guid(2506e1f6010f2fe4b81683a2ad21daa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38594b1277da27af8f132c3298298e13') in 0.001665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_481.asset
+  artifactKey: Guid(c6837b3d24922584593628df9c485d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_481.asset using Guid(c6837b3d24922584593628df9c485d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c671563a6274e971becebff8719a960') in 0.001348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002617 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_511.asset
+  artifactKey: Guid(af3e4179190cf2a4da5f7bee34f89343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_511.asset using Guid(af3e4179190cf2a4da5f7bee34f89343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f34d454b726a7ca3a2e126c3643ba39') in 0.001652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_539.asset
+  artifactKey: Guid(b7d4e757f90f1224f8352447bdf479af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_539.asset using Guid(b7d4e757f90f1224f8352447bdf479af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b71c5471c4d849d9e02012c19821d4') in 0.001409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_540.asset
+  artifactKey: Guid(4efbc2a7818167b439d5d4dc1aa7987a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_540.asset using Guid(4efbc2a7818167b439d5d4dc1aa7987a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab92eac9c9621e0e6ffb7d635981e90b') in 0.001873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_524.asset
+  artifactKey: Guid(71cfe0a2dec750b4c80f0aba50432eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_524.asset using Guid(71cfe0a2dec750b4c80f0aba50432eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa00dbb638ae87eacbc6e8d302ba4b9') in 0.002100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_536.asset
+  artifactKey: Guid(71b3f1724cfeaae40b1bb8a82991b597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_536.asset using Guid(71b3f1724cfeaae40b1bb8a82991b597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1c609bce71463f15e419a2c8aefc3f') in 0.002022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_516.asset
+  artifactKey: Guid(03ab78e5a918fa5459ff76b5b83e9a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_516.asset using Guid(03ab78e5a918fa5459ff76b5b83e9a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fd160d2372fa97da6c985c50273581') in 0.002041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_530.asset
+  artifactKey: Guid(7b111ee88852f9e4aa6c5ddd4c3ad691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_530.asset using Guid(7b111ee88852f9e4aa6c5ddd4c3ad691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a0aeb44209cbf986f1d15be6f503c6') in 0.001673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.539022 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_543.asset
+  artifactKey: Guid(2a3f191af378e664082462012e4c9881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_543.asset using Guid(2a3f191af378e664082462012e4c9881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9550a840377d3dab0e82a82aded30c6') in 0.002276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_550.asset
+  artifactKey: Guid(0b12f026e57f3084caff7d890228ff0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_550.asset using Guid(0b12f026e57f3084caff7d890228ff0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a6af8d2efa5497280402213ab34b4b') in 0.001794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_548.asset
+  artifactKey: Guid(d467fddf032fd044bbc5e4249430b7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_548.asset using Guid(d467fddf032fd044bbc5e4249430b7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6661b6a48626db9a511cea047ce1359c') in 0.001925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_545.asset
+  artifactKey: Guid(9d3af8ba2ca1f034f84c2b15c8e2a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_545.asset using Guid(9d3af8ba2ca1f034f84c2b15c8e2a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70410afa46374a325b1e3cecef31457b') in 0.001566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_563.asset
+  artifactKey: Guid(45ca4c5c3a8690943bb88bfc63d57a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_563.asset using Guid(45ca4c5c3a8690943bb88bfc63d57a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216428b3378268c0bb054e19dce1b3de') in 0.002550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_565.asset
+  artifactKey: Guid(03fae8e48a5802d4bb1cae28850575ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_565.asset using Guid(03fae8e48a5802d4bb1cae28850575ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206fe21b65d625fa14cd7f1d91bb9671') in 0.001843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_569.asset
+  artifactKey: Guid(ca4048864d419a64bba5bd80c7258b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_569.asset using Guid(ca4048864d419a64bba5bd80c7258b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e9c7530a0553dbcc68603dddbe3f5c') in 0.001632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_557.asset
+  artifactKey: Guid(3a581ffbef3392549b798b2ede1f1bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_557.asset using Guid(3a581ffbef3392549b798b2ede1f1bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68d3b754a29f5161d33f6605a64482e') in 0.002044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_575.asset
+  artifactKey: Guid(23e1a2035dbad1546adbd49b65fe3af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_575.asset using Guid(23e1a2035dbad1546adbd49b65fe3af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d44f88d8553161e25f0e0822e4a917') in 0.001926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_587.asset
+  artifactKey: Guid(636846c5b188a204290c4ba7f146fc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_587.asset using Guid(636846c5b188a204290c4ba7f146fc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bf84608f8454db96b315a377fdf533') in 0.001716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_588.asset
+  artifactKey: Guid(61e0a1af923a5ed4c9157ec8eb0eed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_588.asset using Guid(61e0a1af923a5ed4c9157ec8eb0eed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c606783a73db13f191c1267e188ed931') in 0.002024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_604.asset
+  artifactKey: Guid(5a72d5df1557ccb429d2500752bba49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_604.asset using Guid(5a72d5df1557ccb429d2500752bba49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d329d381b3d21ccf4ed435f24988830') in 0.001527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_610.asset
+  artifactKey: Guid(ddec99e32d6cbe94fad8e738aff94020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_610.asset using Guid(ddec99e32d6cbe94fad8e738aff94020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9087289346e9407dcbd2a06ee3ddb602') in 0.001917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_619.asset
+  artifactKey: Guid(659a270ff4827fe438c362c702ec4f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_619.asset using Guid(659a270ff4827fe438c362c702ec4f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d58935069784c481b45fafae34095dd') in 0.001853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_609.asset
+  artifactKey: Guid(74d235db7d53f5a439470de7e0511f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_609.asset using Guid(74d235db7d53f5a439470de7e0511f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295b4ac027d7dbc820d416cd5402724e') in 0.002100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_593.asset
+  artifactKey: Guid(9ff8799a09d2eb749b907a7b2e26f833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_593.asset using Guid(9ff8799a09d2eb749b907a7b2e26f833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940dca7e6a5df92b57dbfb8be95eea1b') in 0.002003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_590.asset
+  artifactKey: Guid(d33abbd96bbac4842952afbfc9c6b9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_590.asset using Guid(d33abbd96bbac4842952afbfc9c6b9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a675624160f8ab76788a03ea85d4477') in 0.001465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_596.asset
+  artifactKey: Guid(af9403b366d3d564b8fe6f7e8f6d2d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_596.asset using Guid(af9403b366d3d564b8fe6f7e8f6d2d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820fc8b6f1cb883c9d5a3d3053aa9392') in 0.001887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_608.asset
+  artifactKey: Guid(71747bfa422282c4b83c6c730f9d77c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_608.asset using Guid(71747bfa422282c4b83c6c730f9d77c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164dedf71f53e4ce1d22b6903dcc0c17') in 0.001774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_606.asset
+  artifactKey: Guid(77f8f2441334f8b4dbd467128298a761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_606.asset using Guid(77f8f2441334f8b4dbd467128298a761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709ed77288e03ee4263d7b4c3ca65817') in 0.001432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.073739 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_623.asset
+  artifactKey: Guid(b011665c3347dab4e9d68ed530269aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_623.asset using Guid(b011665c3347dab4e9d68ed530269aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad99aa5c458829444707f4e23ed06d9') in 0.002122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_643.asset
+  artifactKey: Guid(ffe58a0d629aa4b4293f2049ad27a416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_643.asset using Guid(ffe58a0d629aa4b4293f2049ad27a416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d017050d0e0c63e4a77d1c50655153') in 0.001939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_660.asset
+  artifactKey: Guid(b203537140b50fe4d94ab59a6e67f395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_660.asset using Guid(b203537140b50fe4d94ab59a6e67f395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdab41edf3801a49d9075f02672d081') in 0.002486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_665.asset
+  artifactKey: Guid(091136d0738525c4bb0e58d977e99c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_665.asset using Guid(091136d0738525c4bb0e58d977e99c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83ca44fc6267303606f7fc85c6eae25') in 0.002214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_640.asset
+  artifactKey: Guid(12527d1af1df2284c8c0fd560e848609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_640.asset using Guid(12527d1af1df2284c8c0fd560e848609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139fd84c6d1df816595d4876b57f8f4d') in 0.002199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_633.asset
+  artifactKey: Guid(9f418705d09deab42a45b5cbb5714fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_633.asset using Guid(9f418705d09deab42a45b5cbb5714fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2c79001d049c514d37fcc603bf996d') in 0.001933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_662.asset
+  artifactKey: Guid(efc9b3591068cfc49a670c0878ad5eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_662.asset using Guid(efc9b3591068cfc49a670c0878ad5eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9c4d288050344e8f727eebb94d1e85') in 0.002331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_629.asset
+  artifactKey: Guid(2cadbd9cea4dc6c4cbe0f01ec2391ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_629.asset using Guid(2cadbd9cea4dc6c4cbe0f01ec2391ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0a7658e06df4687e760850033f4538') in 0.001622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_648.asset
+  artifactKey: Guid(dec7e0395b14dd046b11fa3777d70d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_648.asset using Guid(dec7e0395b14dd046b11fa3777d70d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fa353fc6eb38ba45480017ed4960d2') in 0.002184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_676.asset
+  artifactKey: Guid(8a3bc631cb970424b82f79c17ea81d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_676.asset using Guid(8a3bc631cb970424b82f79c17ea81d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c31cf0a431b4a0786a6be25fb0b1cba') in 0.001743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_683.asset
+  artifactKey: Guid(e29513f513b48a74f8708e122e8462ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_683.asset using Guid(e29513f513b48a74f8708e122e8462ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3ec57be7c06d911f502489b7ec004d') in 0.001525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_675.asset
+  artifactKey: Guid(6d2fa10f2a656a449aa8f4535f3f7d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_675.asset using Guid(6d2fa10f2a656a449aa8f4535f3f7d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6545a42cf0569251215cb6bf0302ace8') in 0.002278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_656.asset
+  artifactKey: Guid(bdf63f4b526de0645899e2f025616555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_656.asset using Guid(bdf63f4b526de0645899e2f025616555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4b917ab974ff36b0bccdb6d4632d47') in 0.001589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_634.asset
+  artifactKey: Guid(b23553966da966847a538bb40799511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_634.asset using Guid(b23553966da966847a538bb40799511c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d633497463a5b92cb4c69c8053bb72') in 0.002125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_669.asset
+  artifactKey: Guid(13def383aa5cdad46b8c0eb1dabaff5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_669.asset using Guid(13def383aa5cdad46b8c0eb1dabaff5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a017a92b9872f3769b9f9572aba90b02') in 0.001794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_632.asset
+  artifactKey: Guid(9fb038ed3b928684fa718cfe60390b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_632.asset using Guid(9fb038ed3b928684fa718cfe60390b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c8182e461b8be7c84e36c4c23746e8') in 0.001719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.530246 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_687.asset
+  artifactKey: Guid(5b3586242553d9e418463601e0006528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_687.asset using Guid(5b3586242553d9e418463601e0006528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee92127309d57cf036825687340d7778') in 0.002801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_693.asset
+  artifactKey: Guid(603e1555b26bb1a4583815036367a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_693.asset using Guid(603e1555b26bb1a4583815036367a5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f75dafcb6974039f0eb12335a07093') in 0.001865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_692.asset
+  artifactKey: Guid(b64c3b6dde4730241b2a443add3cde81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_692.asset using Guid(b64c3b6dde4730241b2a443add3cde81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22169416d3dd619ce01b0dca58d422d2') in 0.001841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_691.asset
+  artifactKey: Guid(2bc7ff469d6050f4284868195531fbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_691.asset using Guid(2bc7ff469d6050f4284868195531fbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1826bbf887d275f64b552b286431bb68') in 0.001881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.028498 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_703.asset
+  artifactKey: Guid(fb05d95df345e6c458b7c6d8badb2492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_703.asset using Guid(fb05d95df345e6c458b7c6d8badb2492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8935a84e092f9713f5299857c80799d5') in 0.001655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_710.asset
+  artifactKey: Guid(c38459968d04ab34da3e24886d888ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_710.asset using Guid(c38459968d04ab34da3e24886d888ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1349ce748640a33c50f24b07cf06a4') in 0.002145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_711.asset
+  artifactKey: Guid(85564440f4ed10f48981880669c3888c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_711.asset using Guid(85564440f4ed10f48981880669c3888c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6e3196edba87c57eeeb638c03f96ef') in 0.001987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_715.asset
+  artifactKey: Guid(935645fb546de7d44b077a74044dd511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_715.asset using Guid(935645fb546de7d44b077a74044dd511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1871422c6b3c0b8c743d623f4b56a8') in 0.001683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018461 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_719.asset
+  artifactKey: Guid(c22c7deb6efa7d44ca9c2c51fb145b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_719.asset using Guid(c22c7deb6efa7d44ca9c2c51fb145b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cc3bec71aa00f2949173e048565311') in 0.001649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_721.asset
+  artifactKey: Guid(c09f7b3e62abff14cb1d6589d3b3436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_721.asset using Guid(c09f7b3e62abff14cb1d6589d3b3436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cd2ba4d25b8a3613803d9aa1df7c0a') in 0.001903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_732.asset
+  artifactKey: Guid(90d9eb7af5ae7a94492bdcaab6935580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_732.asset using Guid(90d9eb7af5ae7a94492bdcaab6935580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b61fae2dc95ce0ab16ae12dca34819a') in 0.001728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_725.asset
+  artifactKey: Guid(9fb4649d116473a4faa882fd63b10649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_725.asset using Guid(9fb4649d116473a4faa882fd63b10649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9c823a010e76c92c41645453f85228') in 0.001990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_735.asset
+  artifactKey: Guid(7dd7f3f41460f0849b5bf638f26dd22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_735.asset using Guid(7dd7f3f41460f0849b5bf638f26dd22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8154c6f2a66f28b9dc7993a6562b651') in 0.001774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_750.asset
+  artifactKey: Guid(f886d5279da239c4e89924eff0ef612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_750.asset using Guid(f886d5279da239c4e89924eff0ef612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316c11d91d2bf37f641ad2c62e5d166e') in 0.001682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_772.asset
+  artifactKey: Guid(873905671b5fc7040bf4e269fb2e918a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_772.asset using Guid(873905671b5fc7040bf4e269fb2e918a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7563ad66d51a75b66c76cb82cf07ff34') in 0.001484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_769.asset
+  artifactKey: Guid(07009414a0181ac45b1141315fa2bf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_769.asset using Guid(07009414a0181ac45b1141315fa2bf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2b8c4363d704e96a59bf7a88fa0788') in 0.001867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_779.asset
+  artifactKey: Guid(44cbde9f3e09ade419c4c3766c894d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_779.asset using Guid(44cbde9f3e09ade419c4c3766c894d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35ffd1cf771453f6da367cf51eeefe8') in 0.002236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_760.asset
+  artifactKey: Guid(bd7eae53797f47941851bdc6b5683386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_760.asset using Guid(bd7eae53797f47941851bdc6b5683386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e4f0ffd4626cc8012450f795f9ec1d') in 0.001576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_755.asset
+  artifactKey: Guid(63044481a200bb64d896bbc82027ba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_755.asset using Guid(63044481a200bb64d896bbc82027ba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee0a590f0125fd4a8b40509f3203f8e') in 0.001618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_763.asset
+  artifactKey: Guid(7634d5c34362c1f4dab034f0b2826ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_763.asset using Guid(7634d5c34362c1f4dab034f0b2826ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5d5a83c369c6599c6bf844db088397') in 0.001921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_775.asset
+  artifactKey: Guid(f095819ce92cd604eb2eb92962e3602b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_775.asset using Guid(f095819ce92cd604eb2eb92962e3602b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757cd0fd93cbf4d2d6b215446810a02d') in 0.001683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_749.asset
+  artifactKey: Guid(acb43519ed9bd1947b2b8c6c1545c3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_749.asset using Guid(acb43519ed9bd1947b2b8c6c1545c3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b918c0ef5c7e62546c29981b8eb7e9ed') in 0.001615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_781.asset
+  artifactKey: Guid(1bc6ccc509e80a945915fa73e1cafea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_781.asset using Guid(1bc6ccc509e80a945915fa73e1cafea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c16581c62ab3a842e61860d94e26d6') in 0.002201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_786.asset
+  artifactKey: Guid(5a976c3e4ffdcb74b9fcf81dcc7497c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_786.asset using Guid(5a976c3e4ffdcb74b9fcf81dcc7497c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb7b124fe1de90c5ff3a7eac6a991f6') in 0.001395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_793.asset
+  artifactKey: Guid(983891567d111f9439d707cd1db8fb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_793.asset using Guid(983891567d111f9439d707cd1db8fb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b0088597dcb49986a728c6f6eeed45') in 0.002034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_813.asset
+  artifactKey: Guid(784afc660e5f54748bc4a50e1494c646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_813.asset using Guid(784afc660e5f54748bc4a50e1494c646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fd77ad76f6fb2dcbe07140a1514dd8') in 0.001457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_821.asset
+  artifactKey: Guid(0c4ae9640fe47a04582d4651146b3724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_821.asset using Guid(0c4ae9640fe47a04582d4651146b3724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8161c810dd69c9489d198251d90f973') in 0.001471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_806.asset
+  artifactKey: Guid(ed87f66a1e11b7645b01127c961ef647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_806.asset using Guid(ed87f66a1e11b7645b01127c961ef647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46436043f3dad5e5d159e4053393b1e1') in 0.001785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_807.asset
+  artifactKey: Guid(e4a43b40785dda34b87ecfdbde9e8fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_807.asset using Guid(e4a43b40785dda34b87ecfdbde9e8fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932e44f3b6019338c9ed84461dc3f4de') in 0.002476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_814.asset
+  artifactKey: Guid(0541764922e2ab349a9c162c407a00ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_814.asset using Guid(0541764922e2ab349a9c162c407a00ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148de5c6541672a5a34655fb7420d674') in 0.001777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_802.asset
+  artifactKey: Guid(383a1b398a8645e488b231e183eb9f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_802.asset using Guid(383a1b398a8645e488b231e183eb9f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dfe40179fcd413ce2632c694389e8e') in 0.001689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_801.asset
+  artifactKey: Guid(0c0cdba732d235e4f893565358dd2cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_801.asset using Guid(0c0cdba732d235e4f893565358dd2cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7073f07d0193243410f8d07b06609557') in 0.002176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_791.asset
+  artifactKey: Guid(f0e1b0af29cfa7a4e99855f643b7400e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_791.asset using Guid(f0e1b0af29cfa7a4e99855f643b7400e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4005cc8012c22536a780d0ad28d6fb5f') in 0.001686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_894.asset
+  artifactKey: Guid(c12c37f78e1e6f742b1a3f96f4b4c8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_894.asset using Guid(c12c37f78e1e6f742b1a3f96f4b4c8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7922ad2ef2b7f7ea062042d7b9d029d5') in 0.001985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_897.asset
+  artifactKey: Guid(7a7227b31e530d94ca14dce06567c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_897.asset using Guid(7a7227b31e530d94ca14dce06567c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea27e111ba9bca0229bcdfe80443639d') in 0.001728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_901.asset
+  artifactKey: Guid(d4fa4de16be9a9549a98a888c0ecea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_901.asset using Guid(d4fa4de16be9a9549a98a888c0ecea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ef319696545dc02cad8f1846699f6f') in 0.001511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_923.asset
+  artifactKey: Guid(faee39e7755d94746b4f9d2ba346d995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_923.asset using Guid(faee39e7755d94746b4f9d2ba346d995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab10d410abfb26a67b16f1b5a664f93') in 0.001658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_935.asset
+  artifactKey: Guid(55da04b59a7a7474fa66519c3370f433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_935.asset using Guid(55da04b59a7a7474fa66519c3370f433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a85159957f23073518ebf24c802e31') in 0.001935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_944.asset
+  artifactKey: Guid(1dac7704ad021234787f5cd5197b9e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_944.asset using Guid(1dac7704ad021234787f5cd5197b9e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9173601ad1980a30fe462055bc0d1c2') in 0.001922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_945.asset
+  artifactKey: Guid(2719938da49111547abf3f9b8aee6361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_945.asset using Guid(2719938da49111547abf3f9b8aee6361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f16d21702c8bddc0294eeda8c9983b') in 0.001538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_954.asset
+  artifactKey: Guid(a7d47fa8c6efa4d439b9e339aef61ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_954.asset using Guid(a7d47fa8c6efa4d439b9e339aef61ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158d255957bd89556590ad3ee3ddbd54') in 0.001802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_957.asset
+  artifactKey: Guid(f5a92663c412c324eb8c609b087ec966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_957.asset using Guid(f5a92663c412c324eb8c609b087ec966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47854b2366c2e0a501ae719bfbeb7217') in 0.001690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_960.asset
+  artifactKey: Guid(82b57c7ccafa37e4abe15179100266ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_960.asset using Guid(82b57c7ccafa37e4abe15179100266ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f1873d944239c87184f47b6374e586') in 0.002042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_961.asset
+  artifactKey: Guid(f39a7cba1f076ce40a764e6cee97e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_961.asset using Guid(f39a7cba1f076ce40a764e6cee97e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504a5d2792ede345dc97d7098181085a') in 0.001856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_926.asset
+  artifactKey: Guid(43c8879e38e29c246bb0b02ca255aace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_926.asset using Guid(43c8879e38e29c246bb0b02ca255aace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ebeb9cf31bb7c92cfa6d0730189dab') in 0.001644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_967.asset
+  artifactKey: Guid(7fbcf256fc510cb49b65dc7cbb8b4ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_967.asset using Guid(7fbcf256fc510cb49b65dc7cbb8b4ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5755aa1ada7b5cab911c73a43323af25') in 0.001907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_918.asset
+  artifactKey: Guid(a0a8e9dca03a21846babcdc4f5aee785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_918.asset using Guid(a0a8e9dca03a21846babcdc4f5aee785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6f3d8fed755b9fcaa4a2c7e9c62ff3') in 0.002181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_921.asset
+  artifactKey: Guid(07a24c09bd81d544ab3b43d5b646ba68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_921.asset using Guid(07a24c09bd81d544ab3b43d5b646ba68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261f21852527aafe05d5d6e9607a2536') in 0.001667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_956.asset
+  artifactKey: Guid(ac8ebcd2378ab3a49b9d7371650daabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_956.asset using Guid(ac8ebcd2378ab3a49b9d7371650daabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1557b23247d5f4d69b0676de290f629') in 0.001819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_907.asset
+  artifactKey: Guid(1af035f851010764682c42c0544e873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_907.asset using Guid(1af035f851010764682c42c0544e873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09fc0e66f4622974f84df20e674ed05') in 0.001900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_938.asset
+  artifactKey: Guid(5095f14f116712f40b8b7d4d7bbc5a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_938.asset using Guid(5095f14f116712f40b8b7d4d7bbc5a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ce6422c539918bd25610a112a9d4ea') in 0.001769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_770.asset
+  artifactKey: Guid(27f2da4cb0f03a14b905effa530c3089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_770.asset using Guid(27f2da4cb0f03a14b905effa530c3089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3757e2b448c4297bce56c6e5892eec6b') in 0.002015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_811.asset
+  artifactKey: Guid(29d96797dc2453a42a68eb213a91d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_811.asset using Guid(29d96797dc2453a42a68eb213a91d447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df36f16dd6298b4db811148191876c1') in 0.001573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_892.asset
+  artifactKey: Guid(09c0d524cf1d93548bdcd387068e5d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_892.asset using Guid(09c0d524cf1d93548bdcd387068e5d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718834894d350b3a2a8c941cbe496679') in 0.001679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_790.asset
+  artifactKey: Guid(06ac18f2ae0b9aa45a83869adc26180f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_790.asset using Guid(06ac18f2ae0b9aa45a83869adc26180f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e329dcf816ac2eb756faa2422fa9a7f') in 0.001603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.958401 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_1022.asset
+  artifactKey: Guid(9cb67be8c7c54ac43b48be70a392a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_1022.asset using Guid(9cb67be8c7c54ac43b48be70a392a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee6b41192b6b949773f07905400072b') in 0.001770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_1029.asset
+  artifactKey: Guid(190e35e7da4286846958647eb82bf236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_1029.asset using Guid(190e35e7da4286846958647eb82bf236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a506d0f1be35f823a6e2d865bd8441d9') in 0.001946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_1035.asset
+  artifactKey: Guid(70601bfcc8ef8144a94a9fb153be8a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_1035.asset using Guid(70601bfcc8ef8144a94a9fb153be8a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea63ff1b7849ab84b3fcad667496c7c6') in 0.001862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_1032.asset
+  artifactKey: Guid(25a4738477d93a445910c775af1bb0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_1032.asset using Guid(25a4738477d93a445910c775af1bb0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537509d3b4980272a3a9702a20d31092') in 0.001443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029360 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_1006.asset
+  artifactKey: Guid(093040ccdeffca240b5ee70987030001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_1006.asset using Guid(093040ccdeffca240b5ee70987030001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699711f71f9631e5b0af84e470509793') in 0.002050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_1018.asset
+  artifactKey: Guid(5204d6fbed5f13240933ad3fd2c9a94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_1018.asset using Guid(5204d6fbed5f13240933ad3fd2c9a94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c16b4fe433993c5f22e8459e6cf67cd') in 0.002048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_1009.asset
+  artifactKey: Guid(a18a55a2b1462ef43ae7d0d1711bc483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_1009.asset using Guid(a18a55a2b1462ef43ae7d0d1711bc483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef43b81d30637ce7856559a2f650e6fa') in 0.001941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_1015.asset
+  artifactKey: Guid(755687cbaa64d004c8a70e56a2f0de33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_1015.asset using Guid(755687cbaa64d004c8a70e56a2f0de33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a984be07d799e85a177522201d511f2a') in 0.001600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.013600 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_990.asset
+  artifactKey: Guid(6cbcd33a32e19ee4d9e105585ddf7b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_990.asset using Guid(6cbcd33a32e19ee4d9e105585ddf7b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b28d940860dfb8a5d97fd60aaa309ce') in 0.001925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_995.asset
+  artifactKey: Guid(aaae4690c3545d340ad7baefc3fe66bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_995.asset using Guid(aaae4690c3545d340ad7baefc3fe66bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8516b3dd8f00d4c30818f85bc1e3f3f') in 0.001811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_1000.asset
+  artifactKey: Guid(8afd92e79b561ac47af8b1f01281ce25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_1000.asset using Guid(8afd92e79b561ac47af8b1f01281ce25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5357a7f14880c94c23e54b3491cfd7') in 0.001898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_1001.asset
+  artifactKey: Guid(728d90bcef2feb548b5e88f484cd1a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_1001.asset using Guid(728d90bcef2feb548b5e88f484cd1a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763ff396e854c58d2af43fb1b8dd8c08') in 0.001584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.215497 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_975.asset
+  artifactKey: Guid(d84bdd6b60b6d414f8cee9db5f34515d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_975.asset using Guid(d84bdd6b60b6d414f8cee9db5f34515d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fbf7305a8dff0da2566769ca552ceb') in 0.001698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_977.asset
+  artifactKey: Guid(c265d69dad238ac4493cf8e38297b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_977.asset using Guid(c265d69dad238ac4493cf8e38297b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9304987ddc54a3e9e3cac122c309a468') in 0.001773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_981.asset
+  artifactKey: Guid(9309b5982fa7ecb4caa33c61de59e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_981.asset using Guid(9309b5982fa7ecb4caa33c61de59e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3480514663ccedcbe5adb8bcad866fc9') in 0.002231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_987.asset
+  artifactKey: Guid(fadfd094ebd94f747bc0f50583998287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_987.asset using Guid(fadfd094ebd94f747bc0f50583998287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3d16102404ddb6d968fe769b04c049') in 0.001738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.357705 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_878.asset
+  artifactKey: Guid(dca5adfc4e5e61b47b8db3f98404fffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_878.asset using Guid(dca5adfc4e5e61b47b8db3f98404fffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23264800011e17e66147d8c10a4e5437') in 0.002081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_891.asset
+  artifactKey: Guid(cbb5a9695b1ae894dac3f6edf73099a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_891.asset using Guid(cbb5a9695b1ae894dac3f6edf73099a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd824bab269533fce040f2e4ca22e35af') in 0.001948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_888.asset
+  artifactKey: Guid(e7ed7dca9998f7b4d9d80cd5cd3d6b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_888.asset using Guid(e7ed7dca9998f7b4d9d80cd5cd3d6b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb6765015ea4f8e27c3b79a72f9abba') in 0.002154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_884.asset
+  artifactKey: Guid(46fb054b6580c9047825d02a4bd086ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_884.asset using Guid(46fb054b6580c9047825d02a4bd086ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cfa074805c5d11a656f70ab97ef507') in 0.001603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.050641 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_862.asset
+  artifactKey: Guid(af3f52d256005a74aaca3647895f0e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_862.asset using Guid(af3f52d256005a74aaca3647895f0e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4067b031641845035a5e1092a3216b5') in 0.001911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_868.asset
+  artifactKey: Guid(3fd0631b3a8c5194584488acd4577b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_868.asset using Guid(3fd0631b3a8c5194584488acd4577b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f47df316f19290352561310509b4e2') in 0.002133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_869.asset
+  artifactKey: Guid(471ff3b409e02894daef55f1fa54693b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_869.asset using Guid(471ff3b409e02894daef55f1fa54693b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b6ebb8e85154e44ca04358f28959f3') in 0.002198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_865.asset
+  artifactKey: Guid(c1961062c62a1ec4fa671cc88385f753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_865.asset using Guid(c1961062c62a1ec4fa671cc88385f753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942109f72a8d61ee1920f7e1a4a5f828') in 0.001544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.135628 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_846.asset
+  artifactKey: Guid(12bc2ac81207492419f6152219c48633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_846.asset using Guid(12bc2ac81207492419f6152219c48633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f9db2b20d8bc6117607a14be06f94c') in 0.001947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_853.asset
+  artifactKey: Guid(f3c6ca14e29ab2349852aaec9990ab38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_853.asset using Guid(f3c6ca14e29ab2349852aaec9990ab38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0621e6206a8efa3d31bd0875deb3184') in 0.001726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_855.asset
+  artifactKey: Guid(4b0e0cab02619a248bf227eef2e24f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_855.asset using Guid(4b0e0cab02619a248bf227eef2e24f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0299eb254b24df5c75945498c8d0f612') in 0.001991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_849.asset
+  artifactKey: Guid(cc530cee20047364693b856a9fd6c7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_849.asset using Guid(cc530cee20047364693b856a9fd6c7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c48b9f98331a7e9a42f1b72044b770') in 0.001748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008096 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_831.asset
+  artifactKey: Guid(a9adeb34a03feb34d895d6bf10e2ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_831.asset using Guid(a9adeb34a03feb34d895d6bf10e2ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9ad58fd4b765245e67c50a8a053340') in 0.002044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_837.asset
+  artifactKey: Guid(925058f0c018c0640a1c679ea5252c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_837.asset using Guid(925058f0c018c0640a1c679ea5252c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fd4696e4c22b32fb5e429faeed0e19') in 0.001709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_833.asset
+  artifactKey: Guid(ac96df17caba17e44a2008f1cb8865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_833.asset using Guid(ac96df17caba17e44a2008f1cb8865bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92511d732a94e00bf9c661a6e19be438') in 0.001549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sprites/Tilemaps/CityTiles_834.asset
+  artifactKey: Guid(5f367be0f35c471498840a8a6a38da80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemaps/CityTiles_834.asset using Guid(5f367be0f35c471498840a8a6a38da80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b3682e36b0594eb0ca65211809fd34') in 0.002131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.216755 seconds.
+  path: Assets/Extensions/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default54.mat
+  artifactKey: Guid(831e4ea6beda02947bdca5aeb8543156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extensions/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default54.mat using Guid(831e4ea6beda02947bdca5aeb8543156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75517aaa2ecf0eb2dbc52972d9530a11') in 0.001259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Extensions/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/22 - Default.mat
+  artifactKey: Guid(86080a783905b5740ad2b81f63a2c650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Extensions/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/22 - Default.mat using Guid(86080a783905b5740ad2b81f63a2c650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d6d5bcc32d8a0a60557583a87fede9') in 0.001044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

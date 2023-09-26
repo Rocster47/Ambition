@@ -1,0 +1,1103 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.IK.Editor.csproj": {}
+  },
+  "projects": {
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Animation.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Animation.Editor.csproj",
+        "projectName": "Unity.2D.Animation.Editor",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Animation.Editor.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Animation.Runtime.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Animation.Runtime.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Editor.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Editor.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Runtime.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Sprite.Editor.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Sprite.Editor.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Burst.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Burst.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Collections.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Collections.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEditorBridge.001.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEditorBridge.001.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEngineBridge.001.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Animation.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Animation.Runtime.csproj",
+        "projectName": "Unity.2D.Animation.Runtime",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Animation.Runtime.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Runtime.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Burst.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Burst.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Collections.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Collections.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEngineBridge.001.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Editor.csproj",
+        "projectName": "Unity.2D.Common.Editor",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Editor.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Runtime.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Sprite.Editor.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Sprite.Editor.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Burst.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Burst.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Runtime.csproj",
+        "projectName": "Unity.2D.Common.Runtime",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Runtime.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.IK.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.IK.Editor.csproj",
+        "projectName": "Unity.2D.IK.Editor",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.IK.Editor.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Animation.Editor.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Animation.Editor.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Editor.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Editor.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Common.Runtime.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.IK.Runtime.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.IK.Runtime.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEditorBridge.001.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEditorBridge.001.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEngineBridge.001.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.IK.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.IK.Runtime.csproj",
+        "projectName": "Unity.2D.IK.Runtime",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.IK.Runtime.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEngineBridge.001.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Sprite.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Sprite.Editor.csproj",
+        "projectName": "Unity.2D.Sprite.Editor",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Sprite.Editor.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Burst.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Burst.csproj",
+        "projectName": "Unity.Burst",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Burst.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Collections.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Collections.csproj",
+        "projectName": "Unity.Collections",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Collections.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Burst.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Burst.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEditorBridge.001.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEditorBridge.001.csproj",
+        "projectName": "Unity.InternalAPIEditorBridge.001",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEditorBridge.001.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Sprite.Editor.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.2D.Sprite.Editor.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEngineBridge.001.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEngineBridge.001.csproj",
+        "projectName": "Unity.InternalAPIEngineBridge.001",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.InternalAPIEngineBridge.001.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj",
+        "projectName": "Unity.Mathematics",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\Unity.Mathematics.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.TestRunner.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj"
+              },
+              "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+                "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj",
+        "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
+        "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rocst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

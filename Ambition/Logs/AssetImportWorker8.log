@@ -1,0 +1,994 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32714 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/LocalUnityProjects/GitHub/Ambition/Ambition
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+57353
+Successfully changed project path to: C:/LocalUnityProjects/GitHub/Ambition/Ambition
+C:/LocalUnityProjects/GitHub/Ambition/Ambition
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36468] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 74586264 [EditorId] 74586264 [Version] 1048832 [Id] WindowsEditor(7,RoccosGamingPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36468] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 74586264 [EditorId] 74586264 [Version] 1048832 [Id] WindowsEditor(7,RoccosGamingPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 26.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/LocalUnityProjects/GitHub/Ambition/Ambition/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008598 seconds.
+- Loaded All Assemblies, in  0.371 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.270 seconds
+Domain Reload Profiling: 640ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (271ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (210ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\LocalUnityProjects\GitHub\Ambition\Ambition\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\LocalUnityProjects\GitHub\Ambition\Ambition\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.034 seconds
+Refreshing native plugins compatible for Editor in 12.30 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.442 seconds
+Domain Reload Profiling: 2470ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (773ms)
+		LoadAssemblies (504ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (367ms)
+			TypeCache.Refresh (306ms)
+				TypeCache.ScanAssembly (280ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (988ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 10.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6310 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 122 unused Assets / (0.6 MB). Loaded Objects now: 6760.
+Memory consumption went from 240.8 MB to 240.2 MB.
+Total: 5.990900 ms (FindLiveObjects: 0.658800 ms CreateObjectMapping: 0.492100 ms MarkObjects: 4.226100 ms  DeleteObjects: 0.611700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 278106.618152 seconds.
+  path: Assets/CastleTiles_38.asset
+  artifactKey: Guid(dfc80cec089afa74590fc2e248d099f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_38.asset using Guid(dfc80cec089afa74590fc2e248d099f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d74df051aaf14960f6dec81298823e') in 0.032155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CastleTiles_56.asset
+  artifactKey: Guid(d63650753c1d2ea43a3ef4b56aca5b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_56.asset using Guid(d63650753c1d2ea43a3ef4b56aca5b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c308d5d882e680fc1e0e5b1ba4015d2') in 0.002249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CastleTiles_59.asset
+  artifactKey: Guid(66038367e373c2f4396a0d0575c82adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_59.asset using Guid(66038367e373c2f4396a0d0575c82adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25efef84d3f42c089b623b35b91715d2') in 0.001639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_66.asset
+  artifactKey: Guid(c7e22f73f2e416d48ab3450f36cba9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_66.asset using Guid(c7e22f73f2e416d48ab3450f36cba9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67411f4718fc763e0e3ea50dbfd76794') in 0.001633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleTiles_63.asset
+  artifactKey: Guid(ca4b61f48a423c3488e7246caed85b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_63.asset using Guid(ca4b61f48a423c3488e7246caed85b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5f2fcf1e82469af80b2889892df136') in 0.002457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleTiles_70.asset
+  artifactKey: Guid(ad1df3fa9720ff6429db902b68d30552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_70.asset using Guid(ad1df3fa9720ff6429db902b68d30552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968dba6429645505eb08ba197934dcb9') in 0.002289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleTiles_46.asset
+  artifactKey: Guid(7ed9b720aecbd95438a4a86a2e891fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_46.asset using Guid(7ed9b720aecbd95438a4a86a2e891fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2133b00e2c0f60883ecfc0a99f3c21') in 0.001904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CastleTiles_51.asset
+  artifactKey: Guid(f79eea94f421ede4ca90b0649056c0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_51.asset using Guid(f79eea94f421ede4ca90b0649056c0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca479bc7ca1ba2997dc6633218c29f53') in 0.001499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleTiles_69.asset
+  artifactKey: Guid(7d1994524764cc3498d9342c697d9d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_69.asset using Guid(7d1994524764cc3498d9342c697d9d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705f17f8caf20a077d75d25d82051d9d') in 0.001724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_60.asset
+  artifactKey: Guid(0787e0acdadc3264592443b568abc806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_60.asset using Guid(0787e0acdadc3264592443b568abc806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5341c79f97c9efa7381a593602d700d6') in 0.001853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CastleTiles_52.asset
+  artifactKey: Guid(78000a3b30c3bca429f533cebb638754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_52.asset using Guid(78000a3b30c3bca429f533cebb638754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fbf25f8ede05c788df6cf05b4f8e7a') in 0.001526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleTiles_61.asset
+  artifactKey: Guid(46c721bb44d0da940ae270d7cc44ac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_61.asset using Guid(46c721bb44d0da940ae270d7cc44ac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690eb31361c8c035ee284e894b99b78e') in 0.002084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleTiles_39.asset
+  artifactKey: Guid(6f62bcdbc958d3c4e9194942d95c20dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_39.asset using Guid(6f62bcdbc958d3c4e9194942d95c20dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20b2dc18a70106ea2ac78407ddb8bb9') in 0.001674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/CastleTiles_62.asset
+  artifactKey: Guid(e1cbd03f749da2343b8d41f26cab3074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_62.asset using Guid(e1cbd03f749da2343b8d41f26cab3074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d3e2102782daa97fa77b9c92154857') in 0.001440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CastleTiles_68.asset
+  artifactKey: Guid(d1ebf751da4f06c49bf6c09f49a73075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_68.asset using Guid(d1ebf751da4f06c49bf6c09f49a73075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d5366a323de433d6738975b97cd567') in 0.001612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_54.asset
+  artifactKey: Guid(d1f09efa2541703438e8a2894565e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_54.asset using Guid(d1f09efa2541703438e8a2894565e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fea185d9dc9d4735e6324bca72ebc54') in 0.001676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.586323 seconds.
+  path: Assets/CastleTiles_73.asset
+  artifactKey: Guid(27cba3523f2e7a44b9aee11cb962007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_73.asset using Guid(27cba3523f2e7a44b9aee11cb962007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830bbed769e5574e1db696a72cfcd889') in 0.002022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleTiles_85.asset
+  artifactKey: Guid(b5d800e58bb54aa429bb85e3ba37f089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_85.asset using Guid(b5d800e58bb54aa429bb85e3ba37f089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9004c5258de979f2861c614746d278') in 0.002349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CastleTiles_76.asset
+  artifactKey: Guid(a5518f4886bfce34bb88168e02e04d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_76.asset using Guid(a5518f4886bfce34bb88168e02e04d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1d64224a6b669b197f4b065e26c9e8') in 0.002050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleTiles_83.asset
+  artifactKey: Guid(463f40ad8a2436747a86d3b2b830d959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_83.asset using Guid(463f40ad8a2436747a86d3b2b830d959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605b7d599cb177409a7d2a103f48870b') in 0.002028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CastleTiles_81.asset
+  artifactKey: Guid(585a7de05a4e7be4ebdf8dab950a2fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_81.asset using Guid(585a7de05a4e7be4ebdf8dab950a2fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb50d853439231d4a429c6d269846188') in 0.002046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CastleTiles_79.asset
+  artifactKey: Guid(5cba7c43a3d41e14fa3d7d9c4bd207c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_79.asset using Guid(5cba7c43a3d41e14fa3d7d9c4bd207c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24a3099a4c9461d65a82ba54aced51a') in 0.002005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleTiles_103.asset
+  artifactKey: Guid(6a6158a04eec99f4fb62d8249b345bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_103.asset using Guid(6a6158a04eec99f4fb62d8249b345bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235ec1ff461631ba9d95d7c0a4b210b6') in 0.001849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleTiles_89.asset
+  artifactKey: Guid(33929452a22d58b4aa079895027bf10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_89.asset using Guid(33929452a22d58b4aa079895027bf10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13010d72d0e1882a3924d7dbf1d6137a') in 0.001540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleTiles_92.asset
+  artifactKey: Guid(9ac2684bc4cb5f5459e6c18ae5e06961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_92.asset using Guid(9ac2684bc4cb5f5459e6c18ae5e06961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c021023c72ddb0a51e7971bc948f11f') in 0.002022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleTiles_100.asset
+  artifactKey: Guid(5063a80add68d2745a102be5ab438cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_100.asset using Guid(5063a80add68d2745a102be5ab438cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1624208858b676f70f7688496315cc9d') in 0.002144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleTiles_114.asset
+  artifactKey: Guid(7f80f3ad0e22c5b40a1e5bb66a1eb7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_114.asset using Guid(7f80f3ad0e22c5b40a1e5bb66a1eb7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b114dd176a4e1fbf4b97e0ee4ab39477') in 0.002084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleTiles_116.asset
+  artifactKey: Guid(1ffafb81133a49344bdafa9b146f7a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_116.asset using Guid(1ffafb81133a49344bdafa9b146f7a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1638cf3bfc79d066f944e95a911ec1ee') in 0.002209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CastleTiles_110.asset
+  artifactKey: Guid(f22f9214ef7d196499104609ed605ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_110.asset using Guid(f22f9214ef7d196499104609ed605ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3634839b06f2d13bcda9742d9f722c0d') in 0.001895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_105.asset
+  artifactKey: Guid(0f01044d7b091ec44a9b9c61783791b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_105.asset using Guid(0f01044d7b091ec44a9b9c61783791b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222a8be6b0bb5b2f969158703bd2aaca') in 0.001990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CastleTiles_113.asset
+  artifactKey: Guid(d1da736d1e2536147825023827634d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_113.asset using Guid(d1da736d1e2536147825023827634d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ac6a1ed50f8dd3e9abd0949f552446') in 0.002871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleTiles_88.asset
+  artifactKey: Guid(991a21e47e49e024caf378d20fe8c854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_88.asset using Guid(991a21e47e49e024caf378d20fe8c854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4493f6a7bbac0ad963233909a296d11') in 0.002066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CastleTiles_95.asset
+  artifactKey: Guid(215cf44146ce79b4e92fbf5aca05e136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_95.asset using Guid(215cf44146ce79b4e92fbf5aca05e136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6a1e27f7ef1f1fda5a30ddf8ee6ca6') in 0.001867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CastleTiles_75.asset
+  artifactKey: Guid(8616a0a07e7c8c1499150a818a86e199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_75.asset using Guid(8616a0a07e7c8c1499150a818a86e199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46445ceb3f24ad6f589e2901fbe6402f') in 0.001766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleTiles_91.asset
+  artifactKey: Guid(c345660a1efb3bb4aba5cdbcf0bd2155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_91.asset using Guid(c345660a1efb3bb4aba5cdbcf0bd2155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcf611c13908ff194b3a65e335199c2') in 0.002193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CastleTiles_94.asset
+  artifactKey: Guid(39de34cbae6dff743b79d13c1087d3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_94.asset using Guid(39de34cbae6dff743b79d13c1087d3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1885d9e52e4aee044cfd434b3df52ca') in 0.002823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CastleTiles_98.asset
+  artifactKey: Guid(a964a0ba6fe1a08468f76f9883809302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_98.asset using Guid(a964a0ba6fe1a08468f76f9883809302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5edb054907d73e1e10ac9f4ca8819a') in 0.002204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CastleTiles_108.asset
+  artifactKey: Guid(395cae2d385561d40a4a2746f6cc6bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_108.asset using Guid(395cae2d385561d40a4a2746f6cc6bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36596176affbac4fef3899320a04a7de') in 0.002146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleTiles_112.asset
+  artifactKey: Guid(b89b65953c07a7546ba83802e7ebc8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_112.asset using Guid(b89b65953c07a7546ba83802e7ebc8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f77e5496b9a421e56ed57a61614b68') in 0.001845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_90.asset
+  artifactKey: Guid(c17ee942c5244104abe1ac27ff7215d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_90.asset using Guid(c17ee942c5244104abe1ac27ff7215d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522246aee1d2756b01228f7cf8adc14b') in 0.001866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029046 seconds.
+  path: Assets/CastleTiles_121.asset
+  artifactKey: Guid(8f642898673ff1b47a964fce8fda7c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_121.asset using Guid(8f642898673ff1b47a964fce8fda7c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98b4642bea7e0b62c1577f5638d0606') in 0.001964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleTiles_125.asset
+  artifactKey: Guid(8ce30733e6d90c64690d80b16e598fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_125.asset using Guid(8ce30733e6d90c64690d80b16e598fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7545644687ee07d7b4c649c4ec73171') in 0.001664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleTiles_130.asset
+  artifactKey: Guid(bfaac471a77e0cd4ea4a4381f5a54967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_130.asset using Guid(bfaac471a77e0cd4ea4a4381f5a54967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1604bfa5f9a1f3e1c4894c8d0eb70239') in 0.002049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/CastleTiles_132.asset
+  artifactKey: Guid(f297003030719094b8b4d69eb38459ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_132.asset using Guid(f297003030719094b8b4d69eb38459ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2aa3bc025619bfc783c7129f1d6e156') in 0.001695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_134.asset
+  artifactKey: Guid(4e88389d2ba0941469ac3cb354a4125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_134.asset using Guid(4e88389d2ba0941469ac3cb354a4125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27ffa0c5431e30507395a4072b169e0') in 0.001912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleTiles_136.asset
+  artifactKey: Guid(09b6fed177e049b4596264c5672c425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_136.asset using Guid(09b6fed177e049b4596264c5672c425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca34279be80b567b0f8dcbeec42eb31') in 0.001411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleTiles_155.asset
+  artifactKey: Guid(19da4a53c1477ca48aa9a1d9104c1c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_155.asset using Guid(19da4a53c1477ca48aa9a1d9104c1c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a93b18e387c74e42d04beeb00e98378') in 0.001707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleTiles_160.asset
+  artifactKey: Guid(5adfce57ac8a390499cacd02b6cdbaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_160.asset using Guid(5adfce57ac8a390499cacd02b6cdbaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6ee00d6e11b5bd7a0462cf48c06e69') in 0.002041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleTiles_159.asset
+  artifactKey: Guid(3601e4018c4f48a478ffa252a54b5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_159.asset using Guid(3601e4018c4f48a478ffa252a54b5a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd008f8b418513255f905372b15597f7') in 0.001762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_161.asset
+  artifactKey: Guid(080ff90617452bf4093bf3984264f606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_161.asset using Guid(080ff90617452bf4093bf3984264f606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20bbe9f070a2a16890fe22e38be922e') in 0.001392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleTiles_174.asset
+  artifactKey: Guid(7be788bd85ee19f468f70fdd027746b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_174.asset using Guid(7be788bd85ee19f468f70fdd027746b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2337214da9a6977ed664a9d7414fd42c') in 0.001589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_137.asset
+  artifactKey: Guid(d7f9a4e1d1eae0a4f869b420b9f50c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_137.asset using Guid(d7f9a4e1d1eae0a4f869b420b9f50c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bbca9d852b66d7cdf5b26fcb94b2a8') in 0.001664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleTiles_148.asset
+  artifactKey: Guid(0594ac3608924a64097982666ab060ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_148.asset using Guid(0594ac3608924a64097982666ab060ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5259134af8e35a79e37841ee281170c') in 0.001604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CastleTiles_168.asset
+  artifactKey: Guid(cd1fb5096f74b9a4796d89faa6773cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_168.asset using Guid(cd1fb5096f74b9a4796d89faa6773cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727a78928117f17f0f22f8b47ead6ae5') in 0.001490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CastleTiles_144.asset
+  artifactKey: Guid(e713b115fe2784949a5213e83c136d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_144.asset using Guid(e713b115fe2784949a5213e83c136d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba3786b137ffe2b7f6a02765c80afb1') in 0.001594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleTiles_156.asset
+  artifactKey: Guid(22efda5f42e3aa9429e40bebde32b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_156.asset using Guid(22efda5f42e3aa9429e40bebde32b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda0c5cf3d3cab171c7f9676aea8c7ab') in 0.001651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CastleTiles_165.asset
+  artifactKey: Guid(37f565ed073fbe74f80a4aaadf8049a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_165.asset using Guid(37f565ed073fbe74f80a4aaadf8049a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533bbf44fbe18540415b9a525f9c4c4f') in 0.001356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_158.asset
+  artifactKey: Guid(371383420ff5af2488351f3c1a2b6ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_158.asset using Guid(371383420ff5af2488351f3c1a2b6ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96892c9f825e094e0a81aedecfadc50e') in 0.001876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleTiles_170.asset
+  artifactKey: Guid(f34fc742037394446a272a2d1c93376b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_170.asset using Guid(f34fc742037394446a272a2d1c93376b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7792cf89fd29e24a29f85d97a59fc1d3') in 0.001562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_146.asset
+  artifactKey: Guid(c2953c8e0b20b0c41afb5ee6212e0f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_146.asset using Guid(c2953c8e0b20b0c41afb5ee6212e0f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5b5ed771f6cd49f05ef3d9bdc55aae') in 0.001595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_145.asset
+  artifactKey: Guid(ee595fd4d6040a34481911af8a9d72d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_145.asset using Guid(ee595fd4d6040a34481911af8a9d72d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f412385a60b13a3341e2021299eb3666') in 0.001403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/CastleTiles_178.asset
+  artifactKey: Guid(4e88493d461de0c4089c42425ef4019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_178.asset using Guid(4e88493d461de0c4089c42425ef4019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23b3b542663133754e02c717f7615e5') in 0.001580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/CastleTiles_138.asset
+  artifactKey: Guid(182a16761aa39cc409ab2250ac3182fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_138.asset using Guid(182a16761aa39cc409ab2250ac3182fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b714635244a7fa3d3c8bb88f7dcb3db1') in 0.001576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleTiles_181.asset
+  artifactKey: Guid(2c7c9adf478e3db49ada2328e06a2cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_181.asset using Guid(2c7c9adf478e3db49ada2328e06a2cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a1a5c870cdbb12dbe317add69e6bf6') in 0.001523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CastleTiles_176.asset
+  artifactKey: Guid(5d9b2fffed8184b44888eb35119f928c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_176.asset using Guid(5d9b2fffed8184b44888eb35119f928c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61df164a0b057fa360c52cbb0ae948a4') in 0.001574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/CastleTiles_139.asset
+  artifactKey: Guid(ebc39ab8335298b429e0c82cae8795c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_139.asset using Guid(ebc39ab8335298b429e0c82cae8795c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bde4250dfe82f366164d55247edb83') in 0.001721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CastleTiles_153.asset
+  artifactKey: Guid(d7698a11ddbf4e348a7f9c20d18cbc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_153.asset using Guid(d7698a11ddbf4e348a7f9c20d18cbc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e962f1bdfce95a434005d86cbdf88db0') in 0.001294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CastleTiles_166.asset
+  artifactKey: Guid(3c4aca5305794dc44ad1111cdf03665f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_166.asset using Guid(3c4aca5305794dc44ad1111cdf03665f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf09b76969bad8c740dcc5763251b312') in 0.001691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleTiles_122.asset
+  artifactKey: Guid(3b3a1dcdcb14082498b5aef9e2e884ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_122.asset using Guid(3b3a1dcdcb14082498b5aef9e2e884ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eeadc4d860a47d6ecdba1bf0d3d5c12') in 0.001698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleTiles_184.asset
+  artifactKey: Guid(5e39aa8e376a5174dbcda43df76fc2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_184.asset using Guid(5e39aa8e376a5174dbcda43df76fc2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8901aed4a9545b990350c8b7ba252aa7') in 0.001901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleTiles_202.asset
+  artifactKey: Guid(2688351f8c3926641942759d01c68df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_202.asset using Guid(2688351f8c3926641942759d01c68df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183013b87cc8e22f41b070247d5ee904') in 0.001561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleTiles_210.asset
+  artifactKey: Guid(5586f564300d24743901a1b866bae77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_210.asset using Guid(5586f564300d24743901a1b866bae77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae62ae8cc5c995e647c7f032b2b682f') in 0.001888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CastleTiles_214.asset
+  artifactKey: Guid(45022c998e620ce4e8bdd196cfd5ca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_214.asset using Guid(45022c998e620ce4e8bdd196cfd5ca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a9e5456ba3faadb4a163fa9d2cb7e2') in 0.001652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CastleTiles_204.asset
+  artifactKey: Guid(0900c8d373f136b47b2456623a207eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_204.asset using Guid(0900c8d373f136b47b2456623a207eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fc9d18bb50ec6777dc703090873205') in 0.001920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleTiles_221.asset
+  artifactKey: Guid(0d8e1982b0e89454a96c16ce61c1d8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_221.asset using Guid(0d8e1982b0e89454a96c16ce61c1d8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0c8816826b57863835ec7bfc81707c') in 0.001509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CastleTiles_229.asset
+  artifactKey: Guid(02fc65d2022fb4e4782da6a7471110c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_229.asset using Guid(02fc65d2022fb4e4782da6a7471110c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759ddee79b1d0fc30f592d8ab1717d71') in 0.001833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_228.asset
+  artifactKey: Guid(655117b5c30a9af49949f8646dbcd604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_228.asset using Guid(655117b5c30a9af49949f8646dbcd604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e79b8ac84376ba376e45110d83275c') in 0.001825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleTiles_233.asset
+  artifactKey: Guid(b096074cce36add47bbb5ccc133b15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_233.asset using Guid(b096074cce36add47bbb5ccc133b15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a910983e324e6331bdd337e80f0d1fe') in 0.001494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/CastleTiles_226.asset
+  artifactKey: Guid(50037d364144cac4fb09178f9d2a2325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_226.asset using Guid(50037d364144cac4fb09178f9d2a2325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b59ccf00882debf54f5ffd9b059637') in 0.001623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CastleTiles_224.asset
+  artifactKey: Guid(7fa9b5eb2d0ed5149af17a966b838183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_224.asset using Guid(7fa9b5eb2d0ed5149af17a966b838183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e71a3112ac4f25db12c2a51273df34') in 0.001442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleTiles_234.asset
+  artifactKey: Guid(58390d0956123384bae8bdf5e3af86c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_234.asset using Guid(58390d0956123384bae8bdf5e3af86c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b956c16861c0cc7fdbf9d3cdd2d4759a') in 0.001437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CastleTiles_225.asset
+  artifactKey: Guid(f6ff8068afb35384da87d0bebb3c6326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_225.asset using Guid(f6ff8068afb35384da87d0bebb3c6326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5dd8dc4db34af19553e471e64cd35b') in 0.001794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleTiles_189.asset
+  artifactKey: Guid(e7273abaab51fc4478b518ceab913e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_189.asset using Guid(e7273abaab51fc4478b518ceab913e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cdfb4dcc4f38d5c7d4b7d796280ea5') in 0.001592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CastleTiles_194.asset
+  artifactKey: Guid(806b3f42636803543b3a8d6ca0d4d5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_194.asset using Guid(806b3f42636803543b3a8d6ca0d4d5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c431c257ff84e10682a837b7594ddf') in 0.001644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_240.asset
+  artifactKey: Guid(c0eb2681e26d2aa4aa5ba4a1b358da4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_240.asset using Guid(c0eb2681e26d2aa4aa5ba4a1b358da4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa292139598e9fc30939470f863aa9a2') in 0.001911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CastleTiles_199.asset
+  artifactKey: Guid(ea5d4028b34827d4ba32363a2ecb3997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_199.asset using Guid(ea5d4028b34827d4ba32363a2ecb3997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8892cf5104e91ecdbd51a34e82d782ff') in 0.001700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleTiles_242.asset
+  artifactKey: Guid(daeae43b22067af43aef08a1ab3c0844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_242.asset using Guid(daeae43b22067af43aef08a1ab3c0844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f299846a91b9a400ae0c5f64fd8737ca') in 0.001496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/CastleTiles_213.asset
+  artifactKey: Guid(404e0295cd6776d499b6435862fafa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_213.asset using Guid(404e0295cd6776d499b6435862fafa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d35b743d5c757bb6dc5af5485c3877d') in 0.001437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CastleTiles_186.asset
+  artifactKey: Guid(c8013dfd7785fb94bb275ae786d16950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_186.asset using Guid(c8013dfd7785fb94bb275ae786d16950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3212d4d262d97788c27fa4c5da1a9d83') in 0.001744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CastleTiles_239.asset
+  artifactKey: Guid(61ae21e34cf16134d8898ec367730aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_239.asset using Guid(61ae21e34cf16134d8898ec367730aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0064966f9455f79401cbe5cb60cfe49f') in 0.001535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CastleTiles_206.asset
+  artifactKey: Guid(186b0952c6821a741a9d0e0f14725dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_206.asset using Guid(186b0952c6821a741a9d0e0f14725dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2630decb0324182b492332881e02a8f') in 0.001501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CastleTiles_216.asset
+  artifactKey: Guid(d80539966c041164d84a4f0d20fd5946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_216.asset using Guid(d80539966c041164d84a4f0d20fd5946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e426ed29f642e84525cedcda2dba04') in 0.001524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_198.asset
+  artifactKey: Guid(89ae6f89700d290498c0e52eebdf1536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_198.asset using Guid(89ae6f89700d290498c0e52eebdf1536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e841d6bea3e36cc37a0162b886d72ad7') in 0.002029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleTiles_193.asset
+  artifactKey: Guid(34a682c718bd0fc4e9124829c12d0ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_193.asset using Guid(34a682c718bd0fc4e9124829c12d0ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2edd6fa7f00d3af1ff88c941a35550') in 0.001393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_222.asset
+  artifactKey: Guid(bb96f6670a939674cb4983e9c03381ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_222.asset using Guid(bb96f6670a939674cb4983e9c03381ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12897554db6e083d7009b85adcb1b307') in 0.001580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CastleTiles_241.asset
+  artifactKey: Guid(f49d5c8897bd52449b2546ecdbcf7e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_241.asset using Guid(f49d5c8897bd52449b2546ecdbcf7e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e2c94bc9df92724369a5b1d7f7af61') in 0.001583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CastleTiles_201.asset
+  artifactKey: Guid(f7ef7ba2cdae546499b1bd87c4a4fabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_201.asset using Guid(f7ef7ba2cdae546499b1bd87c4a4fabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7282ddb2bb77fc4aa73b6e855a648916') in 0.001856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CastleTiles_151.asset
+  artifactKey: Guid(91540dbf784330c41a901d37c3f10cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_151.asset using Guid(91540dbf784330c41a901d37c3f10cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1617d97270ddbdb269cbe203764a4cd') in 0.001597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CastleTiles_208.asset
+  artifactKey: Guid(87bb78894b6238245b0bbb6e5f6d22b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_208.asset using Guid(87bb78894b6238245b0bbb6e5f6d22b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc0f3f46f9ab153486b89e74db01af1') in 0.001499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CastleTiles_235.asset
+  artifactKey: Guid(d93009da66b39e84f9659226b74ac7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_235.asset using Guid(d93009da66b39e84f9659226b74ac7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eadf16c6bbde4b08c94ed6a02de4d96') in 0.001547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CastleTiles_129.asset
+  artifactKey: Guid(fe40eb7193f919a47af4784bcb214701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_129.asset using Guid(fe40eb7193f919a47af4784bcb214701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ea959e3a434ab76043aa78fa344f5f') in 0.001569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/CastleTiles_143.asset
+  artifactKey: Guid(a008443704537a14583fde336a1669f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CastleTiles_143.asset using Guid(a008443704537a14583fde336a1669f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1f726f60589bdcfe3782882d4c0d10') in 0.001367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
