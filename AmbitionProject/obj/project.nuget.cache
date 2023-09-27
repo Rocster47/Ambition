@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bGTthkLic9gBVENVLDt+zII4tPHW00SMT32+S+EKWV5JNZ5dVVTeQsx5wwdu04Ghwxqm95KetcsCPSCOLi/65Q==",
+  "dgSpecHash": "V2OU4l8cqg5bfNHKoyn8KntaArnLl4UNF7LNRFrF8/BUkxbOpTOsdGUJmzUsUP5e7zDE7kk7YDh8eEwbfANBuw==",
   "success": true,
-  "projectFilePath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\PhotonUnityNetworking.Demos.csproj",
+  "projectFilePath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\AmbitionProject\\PlayFab.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

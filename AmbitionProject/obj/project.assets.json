@@ -2,51 +2,6 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "PhotonRealtime/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "UnityEditor.UI": "1.0.0",
-          "UnityEngine.UI": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PhotonRealtime.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PhotonRealtime.dll": {}
-        }
-      },
-      "PhotonUnityNetworking/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "PhotonRealtime": "1.0.0",
-          "UnityEditor.UI": "1.0.0",
-          "UnityEngine.UI": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PhotonUnityNetworking.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PhotonUnityNetworking.dll": {}
-        }
-      },
-      "PhotonUnityNetworking.Utilities/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "PhotonRealtime": "1.0.0",
-          "PhotonUnityNetworking": "1.0.0",
-          "UnityEditor.UI": "1.0.0",
-          "UnityEngine.UI": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/PhotonUnityNetworking.Utilities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PhotonUnityNetworking.Utilities.dll": {}
-        }
-      },
       "UnityEditor.TestRunner/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -98,21 +53,6 @@
     }
   },
   "libraries": {
-    "PhotonRealtime/1.0.0": {
-      "type": "project",
-      "path": "PhotonRealtime.csproj",
-      "msbuildProject": "PhotonRealtime.csproj"
-    },
-    "PhotonUnityNetworking/1.0.0": {
-      "type": "project",
-      "path": "PhotonUnityNetworking.csproj",
-      "msbuildProject": "PhotonUnityNetworking.csproj"
-    },
-    "PhotonUnityNetworking.Utilities/1.0.0": {
-      "type": "project",
-      "path": "PhotonUnityNetworking.Utilities.csproj",
-      "msbuildProject": "PhotonUnityNetworking.Utilities.csproj"
-    },
     "UnityEditor.TestRunner/1.0.0": {
       "type": "project",
       "path": "UnityEditor.TestRunner.csproj",
@@ -136,9 +76,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "PhotonRealtime >= 1.0.0",
-      "PhotonUnityNetworking >= 1.0.0",
-      "PhotonUnityNetworking.Utilities >= 1.0.0",
       "UnityEditor.UI >= 1.0.0",
       "UnityEngine.UI >= 1.0.0"
     ]
@@ -150,11 +87,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\PhotonUnityNetworking.Demos.csproj",
-      "projectName": "PhotonUnityNetworking.Demos",
-      "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\PhotonUnityNetworking.Demos.csproj",
+      "projectUniqueName": "c:\\LocalUnityProjects\\GitHub\\Ambition\\AmbitionProject\\PlayFab.csproj",
+      "projectName": "PlayFab",
+      "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\AmbitionProject\\PlayFab.csproj",
       "packagesPath": "C:\\Users\\rocst\\.nuget\\packages\\",
-      "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\obj\\",
+      "outputPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\AmbitionProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -176,20 +113,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\PhotonRealtime.csproj": {
-              "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\PhotonRealtime.csproj"
+            "c:\\LocalUnityProjects\\GitHub\\Ambition\\AmbitionProject\\UnityEditor.UI.csproj": {
+              "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\AmbitionProject\\UnityEditor.UI.csproj"
             },
-            "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\PhotonUnityNetworking.csproj": {
-              "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\PhotonUnityNetworking.csproj"
-            },
-            "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\PhotonUnityNetworking.Utilities.csproj": {
-              "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\PhotonUnityNetworking.Utilities.csproj"
-            },
-            "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj": {
-              "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEditor.UI.csproj"
-            },
-            "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj": {
-              "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\Ambition\\UnityEngine.UI.csproj"
+            "c:\\LocalUnityProjects\\GitHub\\Ambition\\AmbitionProject\\UnityEngine.UI.csproj": {
+              "projectPath": "c:\\LocalUnityProjects\\GitHub\\Ambition\\AmbitionProject\\UnityEngine.UI.csproj"
             }
           }
         }

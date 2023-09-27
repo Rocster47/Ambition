@@ -19,9 +19,9 @@ public class SaveLoad : MonoBehaviour
     //These will displayed on the inspector tab when the MenuManager with a component containing this script is selected.
     //In the inspector, the contents of these attributes can be viewed and changed if they have SerializeField.
     
-    private MainGameSaveData mainGameSaveData;
+    private MainGameSaveData mainGameSaveData; //This is an attribute that stores the MainGameSaveData class that will be used as a template for Json serialisation and deserialisation.
     private OptionSaveData optionSaveData; //This is an attribute that stores the OptionSaveData class that will be used as a template for Json serialisation and deserialisation.
-    private StatisticSaveData statisticSaveData;    
+    private StatisticSaveData statisticSaveData; //This is an attribute that stores the StatisticSaveData class that will be used as a template for Json serialisation and deserialisation.
 
     [SerializeField] private Slider volSlider;
     [SerializeField] private Toggle keyboardOnly;
@@ -42,9 +42,9 @@ public class SaveLoad : MonoBehaviour
     //This creates a method called StartupLoad that can be used and accessed by other classes. The method will save or load data as soon as the user logs in.
     public void StartupLoad()
     {
-        mainGameSaveData = new MainGameSaveData();
+        mainGameSaveData = new MainGameSaveData(); //This initialises and declares a local variable called "mainGameSaveData" with the MainGameSaveData class data type.
         optionSaveData = new OptionSaveData(); //This initialises and declares a local variable called "optionSaveData" with the OptionSaveData class data type.
-        statisticSaveData = new StatisticSaveData();
+        statisticSaveData = new StatisticSaveData(); //This initialises and declares a local variable called "statisticSaveData" with the StatisticSaveData class data type.
 
         //Using PlayFab API calls, the program will run the method GetUserData to request for the data of that user who is logged in.
         //The data received will be stored in result.
@@ -54,7 +54,8 @@ public class SaveLoad : MonoBehaviour
             if(!result.Data.ContainsKey("Options")) //If there is no key called "Options" in the user save data...
             {
                 //This must be a new user so we need to create and save their default settings. These can then be changed, saved and loaded in the future.
-
+                
+                //The value of the attributes belonging to MainGameSaveData will store the following:
                 mainGameSaveData.inventory = new int[11] {0,0,0,0,0,0,0,0,0,0,0};
                 mainGameSaveData.inventoryStat = new int[11] {0,0,0,0,0,0,0,0,0,0,0};
                 mainGameSaveData.money = 0;
@@ -70,6 +71,7 @@ public class SaveLoad : MonoBehaviour
                 optionSaveData.language = 0;
                 optionSaveData.colourBlindMode = 0;
 
+                //The value of the attributes belonging to StatisticSaveData will store the following:
                 statisticSaveData.enemiesDefeated = 0;
                 statisticSaveData.challengesCompleted = 0;
 
@@ -77,9 +79,9 @@ public class SaveLoad : MonoBehaviour
                 {
                     Data = new Dictionary<string, string> //The attribute Data belonging to UpdateUserDataRequest will store a new Dictionary data structure.
                     {
-                        {"MainGame", JsonConvert.SerializeObject(mainGameSaveData)}, //This dictionary will contain the string "Options" and then the serialised version of OptionSaveData.
-                        {"Options", JsonConvert.SerializeObject(optionSaveData)},
-                        {"Statistics", JsonConvert.SerializeObject(statisticSaveData)}
+                        {"MainGame", JsonConvert.SerializeObject(mainGameSaveData)}, //This dictionary will contain the string "MainGame" and then the serialised version of MainGameSaveData.
+                        {"Options", JsonConvert.SerializeObject(optionSaveData)}, //This dictionary will contain the string "Options" and then the serialised version of OptionSaveData.
+                        {"Statistics", JsonConvert.SerializeObject(statisticSaveData)} //This dictionary will contain the string "Statistics" and then the serialised version of StatisticSaveData.
                     }
                 };
 
@@ -96,14 +98,16 @@ public class SaveLoad : MonoBehaviour
             {
                 //This is an existing user so we need to load up the settings they have changed in the past.
                 
+                //The Json file contents in the "MainGame" key will deserialise.
+                //The deserialised Json file and the values of its attributes will then be stored in the MainGameSaveData class and its attributes.
                 mainGameSaveData = JsonConvert.DeserializeObject<MainGameSaveData>(result.Data["MainGame"].Value);
-                if(mainGameSaveData.levelsCompleted == 0)
+                if(mainGameSaveData.levelsCompleted == 0) //If there are no levels completed...
                 {
-                    continueGame.interactable = false;
+                    continueGame.interactable = false; //The continue game button can't be interacted with as there is nothing to continue. It would be better to just press new game.
                 }
-                else
+                else //If there are levels completed...
                 {
-                    continueGame.interactable = true;
+                    continueGame.interactable = true; //The continue game buttons can be interacted with.
                 }
 
                 //The Json file contents in the "Options" key will deserialise.
@@ -115,10 +119,16 @@ public class SaveLoad : MonoBehaviour
                 language.value = optionSaveData.language; //The value of the language dropdown will take the value of the language attribute in optionSaveData.
                 colourBlindMode.value = optionSaveData.colourBlindMode; //The value of the colourBlindMode dropdown will take the value of the colourBlindMode attribute in optionSaveData.
 
+                //The Json file contents in the "Statistics" key will deserialise.
+                //The deserialised Json file and the values of its attributes will then be stored in the StatisticSaveData class and its attributes.
                 statisticSaveData = JsonConvert.DeserializeObject<StatisticSaveData>(result.Data["Statistics"].Value);
+                //The program will calculate progress as a percentage by dividing the number of levels completed by the total number of levels and multiplying by 100.
+                //This will be rounded to the nearest integer and stored in the text at the top of the statistics menu saying "Progress: --%".
                 progress.text = "Progress: " + Mathf.RoundToInt(mainGameSaveData.levelsCompleted/9f*100f).ToString() + "%";
-                progressSlider.value = mainGameSaveData.levelsCompleted;
+                progressSlider.value = mainGameSaveData.levelsCompleted; //The progress will also be shown on a slider. This just takes on the value of the levels completed.
+                //The text of "Enemies Defeated:" will have the number of enemies defeated displayed next to it.
                 enemiesDefeated.text = "Enemies Defeated: " + statisticSaveData.enemiesDefeated.ToString();
+                //The text of "Challenges Completed:" will have the number of challenges completed displayed next to it.
                 challengesCompleted.text = "Challenges Completed: " + statisticSaveData.challengesCompleted.ToString();
 
                 Debug.Log("Loaded Existing User Data."); //Print out "Loaded Options." in the Debug Log.
